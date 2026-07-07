@@ -8,191 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-<style>
-:root{
-  --slate:#252b31;        /* Frankfurter Schiefer */
-  --slate-soft:#3a434c;
-  --steel:#355269;        /* Original-Markenblau */
-  --limestone:#c8a566;    /* Maltesischer Kalkstein */
-  --limestone-deep:#a3803f;
-  --paper:#faf8f4;
-  --paper-warm:#f2ede3;
-  --ink:#22262a;
-  --ink-soft:#5a6068;
-  --line:#ddd5c6;
-}
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-body{
-  font-family:"Source Sans 3",system-ui,sans-serif;
-  font-size:1.0625rem;line-height:1.65;
-  color:var(--ink);background:var(--paper);
-  -webkit-font-smoothing:antialiased;
-}
-h1,h2,h3,.serif{font-family:"Libre Caslon Text",Georgia,serif;font-weight:400}
-img{max-width:100%;display:block}
-a{color:var(--steel)}
-.wrap{max-width:1120px;margin:0 auto;padding:0 clamp(1.25rem,4vw,2.5rem)}
-
-/* ---------- Standorte-Leiste (Signatur) ---------- */
-.locbar{
-  background:var(--slate);color:#cfc6b4;
-  font-size:.8125rem;letter-spacing:.06em;
-}
-.locbar .wrap{display:flex;justify-content:space-between;gap:1rem;padding-top:.45rem;padding-bottom:.45rem}
-.locbar span b{color:var(--limestone);font-weight:600}
-@media(max-width:640px){.locbar .wrap{justify-content:center}.locbar .loc-f{display:none}}
-
-/* ---------- Header ---------- */
-header.site{
-  position:sticky;top:0;z-index:50;
-  background:rgba(250,248,244,.94);backdrop-filter:blur(8px);
-  border-bottom:1px solid var(--line);
-}
-header.site .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:.9rem;padding-bottom:.9rem}
-.brand{font-family:"Libre Caslon Text",serif;font-size:1.125rem;color:var(--ink);text-decoration:none;line-height:1.25}
-.brand small{display:block;font-family:"Source Sans 3",sans-serif;font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--limestone-deep)}
-nav.main{display:flex;gap:1.75rem}
-nav.main a{font-size:.9rem;letter-spacing:.04em;text-decoration:none;color:var(--ink-soft)}
-nav.main a:hover,nav.main a:focus-visible{color:var(--steel)}
-@media(max-width:820px){nav.main{display:none}}
-a:focus-visible,button:focus-visible{outline:2px solid var(--steel);outline-offset:3px;border-radius:2px}
-
-/* ---------- Hero ---------- */
-.hero{background:var(--paper);overflow:hidden}
-.hero .wrap{
-  display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2rem,5vw,4.5rem);
-  align-items:center;padding-top:clamp(3rem,7vw,5.5rem);padding-bottom:clamp(3rem,7vw,5.5rem);
-}
-.eyebrow{
-  font-size:.75rem;letter-spacing:.22em;text-transform:uppercase;
-  color:var(--limestone-deep);font-weight:600;margin-bottom:1.1rem;
-}
-.hero h1{
-  font-size:clamp(2rem,4.6vw,3.4rem);line-height:1.12;color:var(--slate);
-  margin-bottom:1.4rem;text-wrap:balance;
-}
-.hero h1 em{font-style:italic;color:var(--steel)}
-.hero p.lede{font-size:1.125rem;color:var(--ink-soft);max-width:34em;margin-bottom:2rem}
-.hero-cta{display:flex;gap:1rem;flex-wrap:wrap;align-items:center}
-.btn{
-  display:inline-block;padding:.8rem 1.6rem;text-decoration:none;
-  font-weight:600;font-size:.95rem;letter-spacing:.03em;border-radius:2px;
-}
-.btn-primary{background:var(--steel);color:#fff;border:1px solid var(--steel)}
-.btn-primary:hover{background:#2b4457}
-.btn-ghost{color:var(--slate);border:1px solid var(--line);background:transparent}
-.btn-ghost:hover{border-color:var(--limestone-deep);color:var(--limestone-deep)}
-.hero-figure{position:relative}
-.hero-figure img{
-  width:100%;height:auto;aspect-ratio:1/1.02;object-fit:cover;object-position:55% 4%;
-  border-radius:2px;
-}
-.hero-figure::after{ /* Kalkstein-Kante */
-  content:"";position:absolute;inset:auto -14px -14px auto;width:62%;height:62%;
-  border-right:3px solid var(--limestone);border-bottom:3px solid var(--limestone);
-  pointer-events:none;
-}
-.hero-figure figcaption{
-  margin-top:1rem;font-size:.8rem;letter-spacing:.08em;color:var(--ink-soft);
-}
-@media(max-width:820px){
-  .hero .wrap{grid-template-columns:1fr}
-  .hero-figure{order:-1;max-width:420px}
-  .hero-figure img{aspect-ratio:4/4}
-}
-
-/* ---------- Sektionen allgemein ---------- */
-section{padding:clamp(3.5rem,8vw,6rem) 0}
-.sec-head{max-width:38em;margin-bottom:clamp(2rem,4vw,3rem)}
-.sec-head h2{font-size:clamp(1.6rem,3vw,2.2rem);color:var(--slate);margin-bottom:.6rem}
-.sec-head p{color:var(--ink-soft)}
-
-/* ---------- Rechtsgebiete ---------- */
-.fields{background:var(--paper-warm);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.field-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
-.field{background:var(--paper);padding:1.75rem 1.5rem}
-.field h3{font-size:1.15rem;color:var(--slate);margin-bottom:.5rem}
-.field p{font-size:.95rem;color:var(--ink-soft)}
-.field .para{font-family:"Libre Caslon Text",serif;color:var(--limestone);font-size:1rem;display:block;margin-bottom:.75rem}
-@media(max-width:900px){.field-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:560px){.field-grid{grid-template-columns:1fr}}
-
-/* ---------- Philosophie ---------- */
-.philo{background:var(--slate);color:#e8e2d5}
-.philo .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,5vw,4rem);align-items:center}
-.philo blockquote{font-family:"Libre Caslon Text",serif;font-size:clamp(1.5rem,3vw,2.1rem);line-height:1.3;font-style:italic}
-.philo blockquote footer{font-family:"Source Sans 3",sans-serif;font-style:normal;font-size:.85rem;letter-spacing:.15em;text-transform:uppercase;color:var(--limestone);margin-top:1.25rem}
-.philo .body p{margin-bottom:1rem;color:#c9c2b2}
-.philo .body p strong{color:#f0ead9;font-weight:600}
-@media(max-width:820px){.philo .wrap{grid-template-columns:1fr}}
-
-/* ---------- Vita / Timeline ---------- */
-.vita-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(2rem,5vw,4rem)}
-.timeline{list-style:none;border-left:2px solid var(--line);padding-left:1.75rem}
-.timeline li{position:relative;padding-bottom:1.5rem}
-.timeline li:last-child{padding-bottom:0}
-.timeline li::before{
-  content:"";position:absolute;left:calc(-1.75rem - 5px);top:.45rem;
-  width:8px;height:8px;border-radius:50%;background:var(--limestone);
-}
-.timeline .year{font-family:"Libre Caslon Text",serif;color:var(--steel);font-size:1.05rem;display:block}
-.timeline p{font-size:.95rem;color:var(--ink-soft)}
-.vita-intro p{margin-bottom:1rem}
-.vita-intro .ph{margin-top:1.5rem}
-
-/* ---------- Malta–Deutschland ---------- */
-.bridge{background:var(--paper-warm);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.bridge-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:2rem}
-.office{background:var(--paper);border:1px solid var(--line);padding:1.75rem}
-.office h3{color:var(--slate);font-size:1.2rem;margin-bottom:.25rem}
-.office .tag{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--limestone-deep);font-weight:600}
-.office address{font-style:normal;color:var(--ink-soft);margin-top:.75rem;font-size:.95rem}
-@media(max-width:700px){.bridge-grid{grid-template-columns:1fr}.vita-grid{grid-template-columns:1fr}}
-
-/* ---------- Honorar ---------- */
-.fee .wrap{display:grid;grid-template-columns:auto 1fr;gap:clamp(2rem,5vw,4rem);align-items:start}
-.fee-rate{border:1px solid var(--line);border-top:3px solid var(--limestone);padding:1.75rem 2rem;background:var(--paper-warm);min-width:15rem}
-.fee-rate .num{font-family:"Libre Caslon Text",serif;font-size:2.6rem;color:var(--slate);line-height:1}
-.fee-rate .unit{display:block;margin-top:.4rem;font-size:.8rem;color:var(--ink-soft);letter-spacing:.18em;text-transform:uppercase}
-.fee ul{list-style:none;margin-top:.5rem}
-.fee ul li{padding-left:1.5rem;position:relative;margin-bottom:.75rem;color:var(--ink-soft)}
-.fee ul li::before{content:"§";position:absolute;left:0;font-family:"Libre Caslon Text",serif;color:var(--limestone-deep)}
-@media(max-width:700px){.fee .wrap{grid-template-columns:1fr}}
-
-/* ---------- Kontakt ---------- */
-.contact{background:var(--slate);color:#e8e2d5}
-.contact h2{color:#f0ead9}
-.contact .sec-head p{color:#c9c2b2}
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem}
-.contact dl div{margin-bottom:1.1rem}
-.contact dt{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--limestone);font-weight:600}
-.contact dd{font-size:1.05rem}
-.contact a{color:#f0ead9}
-@media(max-width:700px){.contact-grid{grid-template-columns:1fr}}
-
-/* ---------- Platzhalter ---------- */
-.ph{
-  border:1.5px dashed var(--limestone-deep);background:repeating-linear-gradient(45deg,transparent,transparent 12px,rgba(200,165,102,.07) 12px,rgba(200,165,102,.07) 24px);
-  display:flex;align-items:center;justify-content:center;text-align:center;
-  color:var(--limestone-deep);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;
-  padding:1rem;border-radius:2px;
-}
-.ph-photo{aspect-ratio:3/2}
-
-/* ---------- Footer ---------- */
-footer.site{background:#1c2126;color:#8e8878;font-size:.85rem}
-footer.site .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;padding-top:1.5rem;padding-bottom:1.5rem}
-footer.site a{color:#b5ad99;text-decoration:none;margin-left:1.25rem}
-footer.site a:first-child{margin-left:0}
-footer.site a:hover{color:var(--limestone)}
-
-/* ---------- Reveal ---------- */
-.reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
-.reveal.in{opacity:1;transform:none}
-@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
-</style>
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
@@ -211,6 +27,7 @@ footer.site a:hover{color:var(--limestone)}
       <a href="#philosophie">Philosophie</a>
       <a href="#vita">Über mich</a>
       <a href="#malta">Malta &amp; Deutschland</a>
+      <a href="#aktuelles">Aktuelles</a>
       <a href="#honorar">Honorar</a>
       <a href="#kontakt">Kontakt</a>
     </nav>
@@ -267,7 +84,48 @@ footer.site a:hover{color:var(--limestone)}
       <div class="body reveal">
         <p>Die Wahl eines Anwalts ist in erster Linie <strong>Vertrauenssache</strong>. Als Mandant vertrauen Sie Ihrem Anwalt höchst private Informationen an, die Sie in den besten Händen wissen müssen.</p>
         <p>Meine Philosophie ist die eines <strong>Haus-, Familien- und Unternehmensanwalts</strong>: ein vertrauensvoller Ansprechpartner für alle Ihre Rechtsangelegenheiten. Wer rechtzeitig Rat einholt, kann Konflikten vorbeugen und die Weichen von Anfang an richtig stellen.</p>
-        <p>Ich arbeite hoch motiviert und ergebnisorientiert — Information und Zeit sind die wichtigsten Güter meiner Mandanten.</p>
+        <p>Ich arbeite hoch motiviert und ergebnisorientiert — Information und Zeit sind die wichtigsten Güter meiner Mandanten. Nach Absprache stehe ich Ihnen flexibel und mobil auch außerhalb üblicher Bürozeiten zur Verfügung.</p>
+        <div class="network">
+          <p class="lead">In ständiger Kooperation arbeite ich eng zusammen mit:</p>
+          <ul>
+            <li>Advocate Dr. Joseph Pace</li>
+            <li>Advocate Dr. Christian Ellull</li>
+            <li>Rechtsanwalt Dr. Jörg Werner</li>
+            <li>Rechtsanwalt Hubert Köhler</li>
+            <li>Rechtsanwalt Achim Boeth</li>
+            <li>Rechtsanwältin Sabine Thomas-Haak</li>
+            <li>Rechtsanwalt John Miehler</li>
+            <li>Kanzlei Dr. Michael &amp; Siebert, Frankfurt am Main</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Aktuelles / Veröffentlichungen ============ -->
+  <section class="news" id="aktuelles">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Aus der Praxis</p>
+        <h2>Aktuelles &amp; Veröffentlichungen</h2>
+        <p>Ein Einblick in Themen, mit denen ich mich in letzter Zeit befasst habe.</p>
+      </div>
+      <div class="news-grid reveal">
+        <div class="news-card">
+          <span class="tag">TV · ARTE</span>
+          <h3>Interview zum Online-Glücksspiel</h3>
+          <p>Gastbeitrag für die ARTE-Dokumentation „Spiel ohne Grenzen" zum Online-Glücksspielmarkt — abrufbar in der ARTE-Mediathek.</p>
+        </div>
+        <div class="news-card">
+          <span class="tag">Glücksspielrecht</span>
+          <h3>Wenn das Online-Casino insolvent wird</h3>
+          <p>Spieler, die ihre Verluste bei einem Casino ohne gültige Lizenz zurückfordern, können sich bei Insolvenz des Betreibers auch an dessen Geschäftsführer halten. Der EuGH hat diese Haftung jüngst bestätigt.</p>
+        </div>
+        <div class="news-card">
+          <span class="tag">Vertragsrecht</span>
+          <h3>Schweigen als Zustimmung? AGB-Änderungen im Blick</h3>
+          <p>Gerichte akzeptieren zunehmend, dass bloßes Schweigen als Zustimmung zu AGB-Änderungen gilt — ein Trend, den ich für Mandanten kritisch einordne und den es beim Prüfen von Verträgen zu beachten gilt.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -376,16 +234,156 @@ footer.site a:hover{color:var(--limestone)}
   <div class="wrap">
     <span>© 2026 Rechtsanwalt Dr. jur. Andreas Hübner · Hübner &amp; Kollegen</span>
     <span>
-      <a href="#">Impressum</a>
-      <a href="#">Datenschutz</a>
-      <a href="#">Widerrufsbelehrung</a>
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
+      <a href="widerruf.html">Widerrufsbelehrung</a>
     </span>
   </div>
 </footer>
 
+<!-- ============ Chat-Widget ============ -->
+<button class="chat-launcher" id="chatLauncher" type="button" aria-expanded="false" aria-controls="chatPanel" aria-label="Chat öffnen">
+  <span class="dot" aria-hidden="true"></span>
+  <svg class="ic-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+  <svg class="ic-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+</button>
+
+<section class="chat-panel" id="chatPanel" role="dialog" aria-label="Kontakt-Chat" aria-hidden="true">
+  <header class="chat-head">
+    <span class="avatar" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="8" width="16" height="11" rx="2.5"/><path d="M12 8V4M9 4h6"/><circle cx="9" cy="13.5" r="1.2" fill="currentColor" stroke="none"/><circle cx="15" cy="13.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+    </span>
+    <span class="who">Sally<small>Digitale Assistentin · Kanzlei Dr. Hübner</small></span>
+  </header>
+  <div class="chat-body" id="chatBody">
+    <p class="chat-msg bot">Guten Tag, ich bin Sally, die digitale Assistentin der Kanzlei. Ich kann erste Fragen aufnehmen — für eine persönliche Einschätzung meldet sich Dr. Hübner im Anschluss bei Ihnen. Wie kann ich helfen?</p>
+    <button type="button" class="chat-suggest" id="chatSuggest">Welches Rechtsgebiet passt zu meinem Fall?</button>
+  </div>
+  <form class="chat-form" id="chatForm">
+    <label for="chatInput" class="sr-only" style="position:absolute;left:-9999px">Ihre Nachricht</label>
+    <input id="chatInput" name="message" type="text" placeholder="Ihre Nachricht…" autocomplete="off" required>
+    <button type="submit" aria-label="Nachricht senden">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+    </button>
+  </form>
+  <p class="chat-foot">Dieser Chat ersetzt keine Rechtsberatung im Einzelfall.</p>
+</section>
+
 <script>
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+(function(){
+  const CHAT_API_URL='https://sally.synaworks.ai/api/query';
+  const WORKSPACE_SLUG='anwalt-huebner-com';
+  const CHAT_ID_KEY='huebner_chat_id';
+
+  const launcher=document.getElementById('chatLauncher');
+  const panel=document.getElementById('chatPanel');
+  const body=document.getElementById('chatBody');
+  const form=document.getElementById('chatForm');
+  const input=document.getElementById('chatInput');
+  const suggest=document.getElementById('chatSuggest');
+
+  function getChatId(){
+    let id=sessionStorage.getItem(CHAT_ID_KEY);
+    if(!id){
+      id=(crypto.randomUUID ? crypto.randomUUID() : String(Date.now())+Math.random().toString(16).slice(2));
+      sessionStorage.setItem(CHAT_ID_KEY,id);
+    }
+    return id;
+  }
+
+  function openChat(){
+    panel.classList.add('open');
+    panel.setAttribute('aria-hidden','false');
+    launcher.setAttribute('aria-expanded','true');
+    launcher.setAttribute('aria-label','Chat schließen');
+    input.focus();
+  }
+  function closeChat(){
+    panel.classList.remove('open');
+    panel.setAttribute('aria-hidden','true');
+    launcher.setAttribute('aria-expanded','false');
+    launcher.setAttribute('aria-label','Chat öffnen');
+  }
+  launcher.addEventListener('click',()=>{
+    panel.classList.contains('open') ? closeChat() : openChat();
+  });
+  document.addEventListener('keydown',e=>{
+    if(e.key==='Escape' && panel.classList.contains('open')) closeChat();
+  });
+
+  function escapeHtml(str){
+    const d=document.createElement('div');
+    d.textContent=str;
+    return d.innerHTML;
+  }
+  function renderMarkdown(text){
+    let html=escapeHtml(text);
+    html=html.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');
+    html=html.replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
+    html=html.replace(/(^|[^*])\*([^*]+)\*/g,'$1<em>$2</em>');
+    html=html.replace(/\n/g,'<br>');
+    return html;
+  }
+  function addMessage(text,who){
+    const p=document.createElement('p');
+    p.className='chat-msg '+who;
+    if(who==='bot'){
+      p.innerHTML=renderMarkdown(text);
+    }else{
+      p.textContent=text;
+    }
+    body.appendChild(p);
+    body.scrollTop=body.scrollHeight;
+  }
+  async function sendToAssistant(text){
+    const typing=document.createElement('div');
+    typing.className='chat-msg bot typing';
+    typing.innerHTML='<span></span><span></span><span></span>';
+    body.appendChild(typing);
+    body.scrollTop=body.scrollHeight;
+
+    try{
+      const res=await fetch(CHAT_API_URL,{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({
+          message:text,
+          chat_id:getChatId(),
+          workspace_slug:WORKSPACE_SLUG,
+          stream:false
+        })
+      });
+      const data=await res.json();
+      typing.remove();
+      if(!res.ok || data.isError){
+        addMessage('Entschuldigung, die Anfrage konnte gerade nicht verarbeitet werden. Bitte versuchen Sie es in Kürze erneut oder nutzen Sie das Kontaktformular.','bot');
+        return;
+      }
+      addMessage(data.message || 'Entschuldigung, ich habe darauf keine Antwort erhalten.','bot');
+    }catch(err){
+      typing.remove();
+      addMessage('Der Assistent ist gerade nicht erreichbar. Bitte versuchen Sie es später erneut oder schreiben Sie uns direkt über das Kontaktformular.','bot');
+    }
+  }
+
+  suggest.addEventListener('click',()=>{
+    addMessage(suggest.textContent,'user');
+    sendToAssistant(suggest.textContent);
+    suggest.remove();
+  });
+
+  form.addEventListener('submit',e=>{
+    e.preventDefault();
+    const val=input.value.trim();
+    if(!val) return;
+    addMessage(val,'user');
+    input.value='';
+    sendToAssistant(val);
+  });
+})();
 </script>
 </body>
 </html>

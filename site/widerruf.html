@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vertrag widerrufen — Rechtsanwalt Dr. jur. Andreas Hübner</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+.wf-grid{display:grid;gap:1.1rem;margin-top:1.5rem;max-width:34rem}
+.wf-field label{display:block;font-size:.85rem;font-weight:600;color:var(--slate);margin-bottom:.35rem}
+.wf-field input,.wf-field textarea{
+  width:100%;font:inherit;padding:.65rem .8rem;border:1px solid var(--line);border-radius:2px;background:#fff;color:var(--ink);
+}
+.wf-field textarea{min-height:5rem;resize:vertical}
+.wf-field .hint{font-size:.8rem;color:var(--ink-soft);margin-top:.3rem}
+.wf-note{font-size:.85rem;color:var(--ink-soft);margin:1.25rem 0}
+</style>
+</head>
+<body class="legal">
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html">Dr. jur. Andreas Hübner<small>Rechtsanwalt · Mediator</small></a>
+  </div>
+</header>
+
+<main class="legal-main">
+  <div class="wrap">
+    <a class="back" href="index.html">← Zurück zur Startseite</a>
+    <p class="eyebrow">Rechtliche Hinweise</p>
+    <h1>Vertrag widerrufen</h1>
+    <p>Online geschlossene Verträge können innerhalb von 14 Tagen widerrufen werden. Bitte füllen Sie das untenstehende Formular aus — eine Eingangsbestätigung wird umgehend per E-Mail versendet.</p>
+
+    <form class="wf-grid" onsubmit="event.preventDefault(); document.getElementById('wf-success').hidden=false; this.hidden=true;">
+      <div class="wf-field">
+        <label for="wf-name">Name *</label>
+        <input id="wf-name" name="name" type="text" required autocomplete="name">
+      </div>
+      <div class="wf-field">
+        <label for="wf-order">Bestell- oder Buchungsnummer *</label>
+        <input id="wf-order" name="order" type="text" required>
+        <p class="hint">Zu finden in Ihrer Bestellbestätigung.</p>
+      </div>
+      <div class="wf-field">
+        <label for="wf-email">E-Mail-Adresse *</label>
+        <input id="wf-email" name="email" type="email" required autocomplete="email">
+        <p class="hint">Die Eingangsbestätigung wird an diese Adresse gesendet.</p>
+      </div>
+      <div class="wf-field">
+        <label for="wf-items">Welche Artikel sollen widerrufen werden?</label>
+        <input id="wf-items" name="items" type="text">
+        <p class="hint">Leer lassen, um den gesamten Vertrag zu widerrufen.</p>
+      </div>
+      <div class="wf-field">
+        <label for="wf-reason">Grund des Widerrufs (optional)</label>
+        <textarea id="wf-reason" name="reason"></textarea>
+      </div>
+      <p class="wf-note">Ein Klick auf die Schaltfläche unten erklärt verbindlich den Widerruf des oben angegebenen Vertrags. Dieser Schritt kann nicht rückgängig gemacht werden. Alle mit * markierten Felder sind Pflichtfelder.</p>
+      <button type="submit" class="btn btn-primary" style="justify-self:start">Widerruf absenden</button>
+    </form>
+    <p id="wf-success" hidden>✓ Widerruf eingegangen — Sie erhalten in Kürze eine Bestätigung per E-Mail.</p>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 Rechtsanwalt Dr. jur. Andreas Hübner · Hübner &amp; Kollegen</span>
+    <span>
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
+      <a href="widerruf.html">Widerrufsbelehrung</a>
+    </span>
+  </div>
+</footer>
+
+</body>
+</html>

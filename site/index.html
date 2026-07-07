@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rechtsanwalt Dr. jur. Andreas Hübner — Von Beginn an in guten Händen</title>
+<meta name="description" content="Rechtsanwalt und Mediator Dr. jur. Andreas Hübner — Vertragsrecht, Immobilienrecht, Familien- und Erbrecht. Kanzlei in Mosta (Malta) und Frankfurt am Main. Seit 1995.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --slate:#252b31;        /* Frankfurter Schiefer */
+  --slate-soft:#3a434c;
+  --steel:#355269;        /* Original-Markenblau */
+  --limestone:#c8a566;    /* Maltesischer Kalkstein */
+  --limestone-deep:#a3803f;
+  --paper:#faf8f4;
+  --paper-warm:#f2ede3;
+  --ink:#22262a;
+  --ink-soft:#5a6068;
+  --line:#ddd5c6;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{
+  font-family:"Source Sans 3",system-ui,sans-serif;
+  font-size:1.0625rem;line-height:1.65;
+  color:var(--ink);background:var(--paper);
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,.serif{font-family:"Libre Caslon Text",Georgia,serif;font-weight:400}
+img{max-width:100%;display:block}
+a{color:var(--steel)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 clamp(1.25rem,4vw,2.5rem)}
+
+/* ---------- Standorte-Leiste (Signatur) ---------- */
+.locbar{
+  background:var(--slate);color:#cfc6b4;
+  font-size:.8125rem;letter-spacing:.06em;
+}
+.locbar .wrap{display:flex;justify-content:space-between;gap:1rem;padding-top:.45rem;padding-bottom:.45rem}
+.locbar span b{color:var(--limestone);font-weight:600}
+@media(max-width:640px){.locbar .wrap{justify-content:center}.locbar .loc-f{display:none}}
+
+/* ---------- Header ---------- */
+header.site{
+  position:sticky;top:0;z-index:50;
+  background:rgba(250,248,244,.94);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:.9rem;padding-bottom:.9rem}
+.brand{font-family:"Libre Caslon Text",serif;font-size:1.125rem;color:var(--ink);text-decoration:none;line-height:1.25}
+.brand small{display:block;font-family:"Source Sans 3",sans-serif;font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--limestone-deep)}
+nav.main{display:flex;gap:1.75rem}
+nav.main a{font-size:.9rem;letter-spacing:.04em;text-decoration:none;color:var(--ink-soft)}
+nav.main a:hover,nav.main a:focus-visible{color:var(--steel)}
+@media(max-width:820px){nav.main{display:none}}
+a:focus-visible,button:focus-visible{outline:2px solid var(--steel);outline-offset:3px;border-radius:2px}
+
+/* ---------- Hero ---------- */
+.hero{background:var(--paper);overflow:hidden}
+.hero .wrap{
+  display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2rem,5vw,4.5rem);
+  align-items:center;padding-top:clamp(3rem,7vw,5.5rem);padding-bottom:clamp(3rem,7vw,5.5rem);
+}
+.eyebrow{
+  font-size:.75rem;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--limestone-deep);font-weight:600;margin-bottom:1.1rem;
+}
+.hero h1{
+  font-size:clamp(2rem,4.6vw,3.4rem);line-height:1.12;color:var(--slate);
+  margin-bottom:1.4rem;text-wrap:balance;
+}
+.hero h1 em{font-style:italic;color:var(--steel)}
+.hero p.lede{font-size:1.125rem;color:var(--ink-soft);max-width:34em;margin-bottom:2rem}
+.hero-cta{display:flex;gap:1rem;flex-wrap:wrap;align-items:center}
+.btn{
+  display:inline-block;padding:.8rem 1.6rem;text-decoration:none;
+  font-weight:600;font-size:.95rem;letter-spacing:.03em;border-radius:2px;
+}
+.btn-primary{background:var(--steel);color:#fff;border:1px solid var(--steel)}
+.btn-primary:hover{background:#2b4457}
+.btn-ghost{color:var(--slate);border:1px solid var(--line);background:transparent}
+.btn-ghost:hover{border-color:var(--limestone-deep);color:var(--limestone-deep)}
+.hero-figure{position:relative}
+.hero-figure img{
+  width:100%;height:auto;aspect-ratio:1/1.02;object-fit:cover;object-position:55% 4%;
+  border-radius:2px;
+}
+.hero-figure::after{ /* Kalkstein-Kante */
+  content:"";position:absolute;inset:auto -14px -14px auto;width:62%;height:62%;
+  border-right:3px solid var(--limestone);border-bottom:3px solid var(--limestone);
+  pointer-events:none;
+}
+.hero-figure figcaption{
+  margin-top:1rem;font-size:.8rem;letter-spacing:.08em;color:var(--ink-soft);
+}
+@media(max-width:820px){
+  .hero .wrap{grid-template-columns:1fr}
+  .hero-figure{order:-1;max-width:420px}
+  .hero-figure img{aspect-ratio:4/4}
+}
+
+/* ---------- Sektionen allgemein ---------- */
+section{padding:clamp(3.5rem,8vw,6rem) 0}
+.sec-head{max-width:38em;margin-bottom:clamp(2rem,4vw,3rem)}
+.sec-head h2{font-size:clamp(1.6rem,3vw,2.2rem);color:var(--slate);margin-bottom:.6rem}
+.sec-head p{color:var(--ink-soft)}
+
+/* ---------- Rechtsgebiete ---------- */
+.fields{background:var(--paper-warm);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.field-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.field{background:var(--paper);padding:1.75rem 1.5rem}
+.field h3{font-size:1.15rem;color:var(--slate);margin-bottom:.5rem}
+.field p{font-size:.95rem;color:var(--ink-soft)}
+.field .para{font-family:"Libre Caslon Text",serif;color:var(--limestone);font-size:1rem;display:block;margin-bottom:.75rem}
+@media(max-width:900px){.field-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.field-grid{grid-template-columns:1fr}}
+
+/* ---------- Philosophie ---------- */
+.philo{background:var(--slate);color:#e8e2d5}
+.philo .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,5vw,4rem);align-items:center}
+.philo blockquote{font-family:"Libre Caslon Text",serif;font-size:clamp(1.5rem,3vw,2.1rem);line-height:1.3;font-style:italic}
+.philo blockquote footer{font-family:"Source Sans 3",sans-serif;font-style:normal;font-size:.85rem;letter-spacing:.15em;text-transform:uppercase;color:var(--limestone);margin-top:1.25rem}
+.philo .body p{margin-bottom:1rem;color:#c9c2b2}
+.philo .body p strong{color:#f0ead9;font-weight:600}
+@media(max-width:820px){.philo .wrap{grid-template-columns:1fr}}
+
+/* ---------- Vita / Timeline ---------- */
+.vita-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(2rem,5vw,4rem)}
+.timeline{list-style:none;border-left:2px solid var(--line);padding-left:1.75rem}
+.timeline li{position:relative;padding-bottom:1.5rem}
+.timeline li:last-child{padding-bottom:0}
+.timeline li::before{
+  content:"";position:absolute;left:calc(-1.75rem - 5px);top:.45rem;
+  width:8px;height:8px;border-radius:50%;background:var(--limestone);
+}
+.timeline .year{font-family:"Libre Caslon Text",serif;color:var(--steel);font-size:1.05rem;display:block}
+.timeline p{font-size:.95rem;color:var(--ink-soft)}
+.vita-intro p{margin-bottom:1rem}
+.vita-intro .ph{margin-top:1.5rem}
+
+/* ---------- Malta–Deutschland ---------- */
+.bridge{background:var(--paper-warm);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.bridge-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:2rem}
+.office{background:var(--paper);border:1px solid var(--line);padding:1.75rem}
+.office h3{color:var(--slate);font-size:1.2rem;margin-bottom:.25rem}
+.office .tag{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--limestone-deep);font-weight:600}
+.office address{font-style:normal;color:var(--ink-soft);margin-top:.75rem;font-size:.95rem}
+@media(max-width:700px){.bridge-grid{grid-template-columns:1fr}.vita-grid{grid-template-columns:1fr}}
+
+/* ---------- Honorar ---------- */
+.fee .wrap{display:grid;grid-template-columns:auto 1fr;gap:clamp(2rem,5vw,4rem);align-items:start}
+.fee-rate{border:1px solid var(--line);border-top:3px solid var(--limestone);padding:1.75rem 2rem;background:var(--paper-warm);min-width:15rem}
+.fee-rate .num{font-family:"Libre Caslon Text",serif;font-size:2.6rem;color:var(--slate);line-height:1}
+.fee-rate .unit{display:block;margin-top:.4rem;font-size:.8rem;color:var(--ink-soft);letter-spacing:.18em;text-transform:uppercase}
+.fee ul{list-style:none;margin-top:.5rem}
+.fee ul li{padding-left:1.5rem;position:relative;margin-bottom:.75rem;color:var(--ink-soft)}
+.fee ul li::before{content:"§";position:absolute;left:0;font-family:"Libre Caslon Text",serif;color:var(--limestone-deep)}
+@media(max-width:700px){.fee .wrap{grid-template-columns:1fr}}
+
+/* ---------- Kontakt ---------- */
+.contact{background:var(--slate);color:#e8e2d5}
+.contact h2{color:#f0ead9}
+.contact .sec-head p{color:#c9c2b2}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem}
+.contact dl div{margin-bottom:1.1rem}
+.contact dt{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--limestone);font-weight:600}
+.contact dd{font-size:1.05rem}
+.contact a{color:#f0ead9}
+@media(max-width:700px){.contact-grid{grid-template-columns:1fr}}
+
+/* ---------- Platzhalter ---------- */
+.ph{
+  border:1.5px dashed var(--limestone-deep);background:repeating-linear-gradient(45deg,transparent,transparent 12px,rgba(200,165,102,.07) 12px,rgba(200,165,102,.07) 24px);
+  display:flex;align-items:center;justify-content:center;text-align:center;
+  color:var(--limestone-deep);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;
+  padding:1rem;border-radius:2px;
+}
+.ph-photo{aspect-ratio:3/2}
+
+/* ---------- Footer ---------- */
+footer.site{background:#1c2126;color:#8e8878;font-size:.85rem}
+footer.site .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;padding-top:1.5rem;padding-bottom:1.5rem}
+footer.site a{color:#b5ad99;text-decoration:none;margin-left:1.25rem}
+footer.site a:first-child{margin-left:0}
+footer.site a:hover{color:var(--limestone)}
+
+/* ---------- Reveal ---------- */
+.reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+
+<div class="locbar" role="note" aria-label="Standorte">
+  <div class="wrap">
+    <span class="loc-m"><b>Mosta, Malta</b> — Triq il-Fortizza 126</span>
+    <span class="loc-f"><b>Frankfurt am Main</b> — Kennedyallee 53</span>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="#top">Dr. jur. Andreas Hübner<small>Rechtsanwalt · Mediator</small></a>
+    <nav class="main" aria-label="Hauptnavigation">
+      <a href="#rechtsgebiete">Rechtsgebiete</a>
+      <a href="#philosophie">Philosophie</a>
+      <a href="#vita">Über mich</a>
+      <a href="#malta">Malta &amp; Deutschland</a>
+      <a href="#honorar">Honorar</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ Hero ============ -->
+  <section class="hero" aria-label="Willkommen">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Rechtsanwalt &amp; Mediator · seit 1995</p>
+        <h1>Von Beginn an <em>in guten Händen.</em></h1>
+        <p class="lede">Mein Anspruch ist eine vollumfängliche Mandatsbetreuung: ein Anwalt Ihres Vertrauens, auf den Sie sich zu jeder Zeit und in jeder Situation verlassen können — in Deutschland und auf Malta.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#kontakt">Kontakt aufnehmen</a>
+          <a class="btn btn-ghost" href="#rechtsgebiete">Rechtsgebiete ansehen</a>
+        </div>
+      </div>
+      <figure class="hero-figure">
+        <img src="assets/hero.jpg" alt="Porträt von Rechtsanwalt Dr. jur. Andreas Hübner" width="2400" height="1600">
+        <figcaption>Dr. jur. Andreas Hübner — Gründer der Kooperation Hübner &amp; Kollegen</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ Rechtsgebiete ============ -->
+  <section class="fields" id="rechtsgebiete">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Tätigkeitsschwerpunkte</p>
+        <h2>Rechtsgebiete</h2>
+        <p>Seit 1995 hauptsächlich im Vertrags-, Immobilien-, Familien- und Erbrecht tätig — ergänzt durch ein deutschlandweites Netzwerk von Kollegen aller Fachrichtungen.</p>
+      </div>
+      <div class="field-grid reveal">
+        <div class="field"><span class="para">§</span><h3>Vertragsrecht</h3><p>Ausarbeitung und Prüfung von Verträgen — nach dem Motto: Vorbeugen ist besser als heilen.</p></div>
+        <div class="field"><span class="para">§</span><h3>Immobilienrecht</h3><p>Kaufvertrags- und Gewährleistungsrecht, Baurecht, Mietrecht und WEG-Recht.</p></div>
+        <div class="field"><span class="para">§</span><h3>Familienrecht</h3><p>Promoviert im Familienrecht (2002, cum laude). Beratung und Vertretung mit Erfahrung und Augenmaß.</p></div>
+        <div class="field"><span class="para">§</span><h3>Erbrecht</h3><p>Vorsorge, Testamentsgestaltung und Vertretung in erbrechtlichen Auseinandersetzungen.</p></div>
+        <div class="field"><span class="para">§</span><h3>Zivilrecht &amp; Mediation</h3><p>Allgemeines Zivilrecht sowie außergerichtliche Konfliktlösung als Mediator (seit 2004).</p></div>
+        <div class="field"><span class="para">§</span><h3>Maltesisches Recht</h3><p>In Kooperation mit Kollegen vor Ort — insbesondere maltesisches Glücksspiel- und Gesellschaftsrecht.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Philosophie ============ -->
+  <section class="philo" id="philosophie">
+    <div class="wrap">
+      <blockquote class="reveal">
+        Wir können die Vergangenheit nicht ändern — aber die Zukunft gestalten.
+        <footer>Philosophie der Kanzlei</footer>
+      </blockquote>
+      <div class="body reveal">
+        <p>Die Wahl eines Anwalts ist in erster Linie <strong>Vertrauenssache</strong>. Als Mandant vertrauen Sie Ihrem Anwalt höchst private Informationen an, die Sie in den besten Händen wissen müssen.</p>
+        <p>Meine Philosophie ist die eines <strong>Haus-, Familien- und Unternehmensanwalts</strong>: ein vertrauensvoller Ansprechpartner für alle Ihre Rechtsangelegenheiten. Wer rechtzeitig Rat einholt, kann Konflikten vorbeugen und die Weichen von Anfang an richtig stellen.</p>
+        <p>Ich arbeite hoch motiviert und ergebnisorientiert — Information und Zeit sind die wichtigsten Güter meiner Mandanten.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Vita ============ -->
+  <section id="vita">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Über mich</p>
+        <h2>Vita — Dr. jur. Andreas Hübner</h2>
+      </div>
+      <div class="vita-grid">
+        <div class="vita-intro reveal">
+          <p>Vor dem Jurastudium unternehmerisch in der Immobilienwirtschaft im Rhein-Main-Gebiet tätig — eine Praxiserfahrung, die meine anwaltliche Arbeit im Immobilien- und Vertragsrecht bis heute prägt.</p>
+          <p>Seit 2010 liegt mein Lebensmittelpunkt auf Malta. Von dort betreue ich kleine und mittlere Unternehmen sowie Privatpersonen — und vertrete Mandanten vor allen deutschen Gerichten, in ständiger Kooperation mit Kanzleien in ganz Deutschland und auf Malta.</p>
+          <div class="ph ph-photo">Platzhalter — Foto: Kanzlei&nbsp;/&nbsp;Arbeitsumgebung</div>
+        </div>
+        <ol class="timeline reveal">
+          <li><span class="year">1984</span><p>Gründung eines Immobilienunternehmens im Rhein-Main-Gebiet</p></li>
+          <li><span class="year">1991</span><p>IHK-Prüfung zum Kaufmann in der Grundstücks- und Wohnungswirtschaft, Frankfurt am Main</p></li>
+          <li><span class="year">1995</span><p>Zulassung und Gründung der Rechtsanwaltskanzlei in Frankfurt am Main — daraus entsteht „Hübner &amp; Kollegen“</p></li>
+          <li><span class="year">2002</span><p>Promotion im Familienrecht (cum laude)</p></li>
+          <li><span class="year">2004</span><p>Titel Mediator — seitdem auch als Mediator tätig</p></li>
+          <li><span class="year">2006–2007</span><p>Vorstand der Rechtsanwaltskammer Frankfurt am Main</p></li>
+          <li><span class="year">2010</span><p>Verlegung des Lebensmittelpunkts nach Malta, Kanzlei in Mosta</p></li>
+          <li><span class="year">seit 2011</span><p>Aktives Mitglied, mittlerweile Ritter des Order of St. Lazarus of Jerusalem, Grand Priory Malta</p></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Malta–Deutschland ============ -->
+  <section class="bridge" id="malta">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Zwei Standorte · ein Ansprechpartner</p>
+        <h2>Malta &amp; Deutschland — bestens verbunden</h2>
+        <p>Malta ist an alle Regionen Deutschlands hervorragend angebunden; allein nach Frankfurt gehen im Regelfall täglich drei Flüge. Verhandlungen vor den Zivilgerichten lassen sich zudem heute auch online führen — jedes Gericht ist damit gut erreichbar.</p>
+      </div>
+      <div class="bridge-grid reveal">
+        <div class="office">
+          <span class="tag">Kanzlei Malta</span>
+          <h3>Mosta</h3>
+          <address>126, Triq il-Fortizza<br>MST 4003 Mosta, Malta<br>Tel. +356&nbsp;79&nbsp;5959&nbsp;66</address>
+          <div class="ph ph-photo" style="margin-top:1.25rem">Platzhalter — Foto: Standort Mosta</div>
+        </div>
+        <div class="office">
+          <span class="tag">Büro Deutschland</span>
+          <h3>Frankfurt am Main</h3>
+          <address>Kennedyallee 53<br>60596 Frankfurt am Main<br>Tel. +49&nbsp;(0)&nbsp;178&nbsp;444&nbsp;333&nbsp;6</address>
+          <div class="ph ph-photo" style="margin-top:1.25rem">Platzhalter — Foto: Standort Frankfurt</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Honorar ============ -->
+  <section class="fee" id="honorar">
+    <div class="wrap">
+      <div class="fee-rate reveal">
+        <span class="num">190&nbsp;€</span>
+        <span class="unit">Stundensatz</span>
+      </div>
+      <div class="reveal">
+        <div class="sec-head" style="margin-bottom:1rem">
+          <p class="eyebrow">Transparente Konditionen</p>
+          <h2>Honorar</h2>
+        </div>
+        <p style="color:var(--ink-soft);max-width:38em">Juristische Arbeit auf höchstem Niveau zu fairen Honoraren:</p>
+        <ul>
+          <li>Im Regelfall bleiben die Honorare im Rahmen des deutschen Rechtsanwaltsvergütungsgesetzes (RVG) — im Obsiegensfall trägt sie die Gegenseite.</li>
+          <li>Bei Vorliegen der rechtlichen Voraussetzungen kann ein Erfolgshonorar vereinbart werden.</li>
+          <li>Abrechnung mit Rechtsschutzversicherungen ist möglich.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Kontakt ============ -->
+  <section class="contact" id="kontakt">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Kontaktieren Sie uns</p>
+        <h2>Sprechen wir über Ihr Anliegen</h2>
+        <p>Schildern Sie mir Ihre Situation — ich melde mich zeitnah bei Ihnen zurück.</p>
+      </div>
+      <div class="contact-grid reveal">
+        <dl>
+          <div><dt>E-Mail</dt><dd><a href="mailto:huebner@anwalt-huebner.com">huebner@anwalt-huebner.com</a></dd></div>
+          <div><dt>Telefon Deutschland</dt><dd><a href="tel:+4917844433336">+49 (0) 178 444 333 6</a></dd></div>
+          <div><dt>Telefon Malta</dt><dd><a href="tel:+35679595966">+356 79 5959 66</a></dd></div>
+          <div><dt>Telefax</dt><dd>+49 (0) 69 900 188 71</dd></div>
+        </dl>
+        <dl>
+          <div><dt>Kanzlei Malta</dt><dd>126, Triq il-Fortizza · MST 4003 Mosta</dd></div>
+          <div><dt>Büro Frankfurt</dt><dd>Kennedyallee 53 · 60596 Frankfurt am Main</dd></div>
+          <div><dt>Zulassung</dt><dd>Rechtsanwaltskammer Frankfurt am Main · registriert nach maltesischem Recht</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 Rechtsanwalt Dr. jur. Andreas Hübner · Hübner &amp; Kollegen</span>
+    <span>
+      <a href="#">Impressum</a>
+      <a href="#">Datenschutz</a>
+      <a href="#">Widerrufsbelehrung</a>
+    </span>
+  </div>
+</footer>
+
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>

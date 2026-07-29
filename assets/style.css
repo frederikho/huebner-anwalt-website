@@ -46,6 +46,13 @@ nav.main{display:flex;gap:1.75rem}
 nav.main a{font-size:.9rem;letter-spacing:.04em;text-decoration:none;color:var(--ink-soft)}
 nav.main a:hover,nav.main a:focus-visible{color:var(--steel)}
 @media(max-width:820px){nav.main{display:none}}
+.head-right{display:flex;align-items:center;gap:1.5rem}
+.lang-toggle{
+  font-family:"Source Sans 3",sans-serif;font-size:.78rem;font-weight:600;letter-spacing:.06em;
+  padding:.35rem .75rem;border:1px solid var(--line);border-radius:999px;background:transparent;
+  color:var(--ink-soft);cursor:pointer;line-height:1;
+}
+.lang-toggle:hover,.lang-toggle:focus-visible{color:var(--steel);border-color:var(--steel)}
 a:focus-visible,button:focus-visible{outline:2px solid var(--steel);outline-offset:3px;border-radius:2px}
 
 /* ---------- Hero ---------- */

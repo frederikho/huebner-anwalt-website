@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" data-page="widerruf">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vertrag widerrufen — Rechtsanwalt Dr. jur. Andreas Hübner</title>
+<title data-i18n="meta.title">Vertrag widerrufen — Rechtsanwalt Dr. jur. Andreas Hübner</title>
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,58 +24,61 @@
 
 <header class="site">
   <div class="wrap">
-    <a class="brand" href="index.html">Dr. jur. Andreas Hübner<small>Rechtsanwalt · Mediator</small></a>
+    <a class="brand" href="index.html">Dr. jur. Andreas Hübner<small data-i18n="brand.subtitle">Rechtsanwalt · Mediator</small></a>
+    <button type="button" class="lang-toggle" aria-label="Switch to English">EN</button>
   </div>
 </header>
 
 <main class="legal-main">
   <div class="wrap">
-    <a class="back" href="index.html">← Zurück zur Startseite</a>
-    <p class="eyebrow">Rechtliche Hinweise</p>
-    <h1>Vertrag widerrufen</h1>
-    <p>Online geschlossene Verträge können innerhalb von 14 Tagen widerrufen werden. Bitte füllen Sie das untenstehende Formular aus — eine Eingangsbestätigung wird umgehend per E-Mail versendet.</p>
+    <a class="back" href="index.html" data-i18n="back">← Zurück zur Startseite</a>
+    <p class="eyebrow" data-i18n="eyebrow">Rechtliche Hinweise</p>
+    <h1 data-i18n="h1">Vertrag widerrufen</h1>
+    <p data-i18n="intro">Online geschlossene Verträge können innerhalb von 14 Tagen widerrufen werden. Bitte füllen Sie das untenstehende Formular aus — eine Eingangsbestätigung wird umgehend per E-Mail versendet.</p>
 
     <form class="wf-grid" onsubmit="event.preventDefault(); document.getElementById('wf-success').hidden=false; this.hidden=true;">
       <div class="wf-field">
-        <label for="wf-name">Name *</label>
+        <label for="wf-name" data-i18n="label.name">Name *</label>
         <input id="wf-name" name="name" type="text" required autocomplete="name">
       </div>
       <div class="wf-field">
-        <label for="wf-order">Bestell- oder Buchungsnummer *</label>
+        <label for="wf-order" data-i18n="label.order">Bestell- oder Buchungsnummer *</label>
         <input id="wf-order" name="order" type="text" required>
-        <p class="hint">Zu finden in Ihrer Bestellbestätigung.</p>
+        <p class="hint" data-i18n="hint.order">Zu finden in Ihrer Bestellbestätigung.</p>
       </div>
       <div class="wf-field">
-        <label for="wf-email">E-Mail-Adresse *</label>
+        <label for="wf-email" data-i18n="label.email">E-Mail-Adresse *</label>
         <input id="wf-email" name="email" type="email" required autocomplete="email">
-        <p class="hint">Die Eingangsbestätigung wird an diese Adresse gesendet.</p>
+        <p class="hint" data-i18n="hint.email">Die Eingangsbestätigung wird an diese Adresse gesendet.</p>
       </div>
       <div class="wf-field">
-        <label for="wf-items">Welche Artikel sollen widerrufen werden?</label>
+        <label for="wf-items" data-i18n="label.items">Welche Artikel sollen widerrufen werden?</label>
         <input id="wf-items" name="items" type="text">
-        <p class="hint">Leer lassen, um den gesamten Vertrag zu widerrufen.</p>
+        <p class="hint" data-i18n="hint.items">Leer lassen, um den gesamten Vertrag zu widerrufen.</p>
       </div>
       <div class="wf-field">
-        <label for="wf-reason">Grund des Widerrufs (optional)</label>
+        <label for="wf-reason" data-i18n="label.reason">Grund des Widerrufs (optional)</label>
         <textarea id="wf-reason" name="reason"></textarea>
       </div>
-      <p class="wf-note">Ein Klick auf die Schaltfläche unten erklärt verbindlich den Widerruf des oben angegebenen Vertrags. Dieser Schritt kann nicht rückgängig gemacht werden. Alle mit * markierten Felder sind Pflichtfelder.</p>
-      <button type="submit" class="btn btn-primary" style="justify-self:start">Widerruf absenden</button>
+      <p class="wf-note" data-i18n="note">Ein Klick auf die Schaltfläche unten erklärt verbindlich den Widerruf des oben angegebenen Vertrags. Dieser Schritt kann nicht rückgängig gemacht werden. Alle mit * markierten Felder sind Pflichtfelder.</p>
+      <button type="submit" class="btn btn-primary" style="justify-self:start" data-i18n="submit">Widerruf absenden</button>
     </form>
-    <p id="wf-success" hidden>✓ Widerruf eingegangen — Sie erhalten in Kürze eine Bestätigung per E-Mail.</p>
+    <p id="wf-success" hidden data-i18n="success">✓ Widerruf eingegangen — Sie erhalten in Kürze eine Bestätigung per E-Mail.</p>
   </div>
 </main>
 
 <footer class="site">
   <div class="wrap">
-    <span>© 2026 Rechtsanwalt Dr. jur. Andreas Hübner · Hübner &amp; Kollegen</span>
+    <span data-i18n="footer.copyright">© 2026 Rechtsanwalt Dr. jur. Andreas Hübner · Hübner &amp; Kollegen</span>
     <span>
-      <a href="impressum.html">Impressum</a>
-      <a href="datenschutz.html">Datenschutz</a>
-      <a href="widerruf.html">Widerrufsbelehrung</a>
+      <a href="impressum.html" data-i18n="footer.impressum">Impressum</a>
+      <a href="datenschutz.html" data-i18n="footer.datenschutz">Datenschutz</a>
+      <a href="widerruf.html" data-i18n="footer.widerruf">Widerrufsbelehrung</a>
     </span>
   </div>
 </footer>
 
+<script src="assets/i18n-data.js"></script>
+<script src="assets/i18n.js"></script>
 </body>
 </html>

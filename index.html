@@ -153,7 +153,7 @@
         <div class="vita-intro reveal">
           <p>Vor dem Jurastudium unternehmerisch in der Immobilienwirtschaft im Rhein-Main-Gebiet tätig — eine Praxiserfahrung, die meine anwaltliche Arbeit im Immobilien- und Vertragsrecht bis heute prägt.</p>
           <p>Seit 2010 liegt mein Lebensmittelpunkt auf Malta. Von dort betreue ich kleine und mittlere Unternehmen sowie Privatpersonen — und vertrete Mandanten vor allen deutschen Gerichten, in ständiger Kooperation mit Kanzleien in ganz Deutschland und auf Malta.</p>
-          <div class="ph ph-photo">Platzhalter — Foto: Kanzlei&nbsp;/&nbsp;Arbeitsumgebung</div>
+          <img class="ph-photo" src="assets/images/kanzlei.jpg" alt="Platzhalter — Foto: Kanzlei / Arbeitsumgebung">
         </div>
         <ol class="timeline reveal">
           <li><span class="year">1984</span><p>Gründung eines Immobilienunternehmens im Rhein-Main-Gebiet</p></li>
@@ -182,13 +182,13 @@
           <span class="tag">Kanzlei Malta</span>
           <h3>Mosta</h3>
           <address>126, Triq il-Fortizza<br>MST 4003 Mosta, Malta<br>Tel. +356&nbsp;79&nbsp;5959&nbsp;66</address>
-          <div class="ph ph-photo" style="margin-top:1.25rem">Platzhalter — Foto: Standort Mosta</div>
+          <img class="ph-photo" style="margin-top:1.25rem" src="assets/images/standort-malta.jpg" alt="Platzhalter — Foto: Standort Mosta">
         </div>
         <div class="office">
           <span class="tag">Büro Deutschland</span>
           <h3>Frankfurt am Main</h3>
           <address>Kennedyallee 53<br>60596 Frankfurt am Main<br>Tel. +49&nbsp;(0)&nbsp;178&nbsp;444&nbsp;333&nbsp;6</address>
-          <div class="ph ph-photo" style="margin-top:1.25rem">Platzhalter — Foto: Standort Frankfurt</div>
+          <img class="ph-photo" style="margin-top:1.25rem" src="assets/images/standort-frankfurt.jpg" alt="Platzhalter — Foto: Standort Frankfurt">
         </div>
       </div>
     </div>
@@ -275,7 +275,7 @@
   </div>
 </footer>
 
-<!-- ============ Chat-Widget ============ -->
+<!-- ============ Chat-Widget (deaktiviert - zum Reaktivieren die Kommentare entfernen) ============
 <button class="chat-launcher" id="chatLauncher" type="button" aria-expanded="false" aria-controls="chatPanel" aria-label="Chat öffnen">
   <span class="dot" aria-hidden="true"></span>
   <svg class="ic-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
@@ -302,6 +302,7 @@
   </form>
   <p class="chat-foot">Dieser Chat ersetzt keine Rechtsberatung im Einzelfall.</p>
 </section>
+============ Ende Chat-Widget ============ -->
 
 <script>
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
@@ -318,6 +319,8 @@ document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
   const form=document.getElementById('chatForm');
   const input=document.getElementById('chatInput');
   const suggest=document.getElementById('chatSuggest');
+  // Chat-Widget-HTML ist aktuell auskommentiert (siehe oben) - Skript daher inaktiv, bis das HTML wieder eingefügt wird
+  if(!launcher || !panel || !body || !form || !input || !suggest) return;
 
   function getChatId(){
     let id=sessionStorage.getItem(CHAT_ID_KEY);

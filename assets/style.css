@@ -198,6 +198,7 @@ section{padding:clamp(3.5rem,8vw,6rem) 0}
   padding:1rem;border-radius:2px;
 }
 .ph-photo{aspect-ratio:3/2}
+img.ph-photo{width:100%;object-fit:cover;border-radius:2px;border:none}
 
 /* ---------- Footer ---------- */
 footer.site{background:#1c2126;color:#8e8878;font-size:.85rem}

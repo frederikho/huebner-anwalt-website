@@ -18,8 +18,23 @@
 .legal-main .pub-list li{margin-bottom:0}
 .legal-main .pub-body p{margin-bottom:0}
 .legal-main .pub-body{display:flow-root}
-.pub-cover{float:right;width:98px;height:auto;margin:.2rem 0 .8rem 1.5rem;border:1px solid var(--line);background:#fff;box-shadow:0 1px 4px rgba(37,43,49,.09)}
-@media(max-width:560px){.pub-cover{width:74px;margin-left:1rem}}
+.pub-figure{float:right;display:block;width:180px;margin:.2rem 0 .9rem 1.75rem;padding:6px;
+  border:1px solid var(--line);background:#fff;cursor:zoom-in;
+  box-shadow:0 1px 4px rgba(37,43,49,.09);transition:box-shadow .25s ease,border-color .25s ease,transform .25s ease}
+.pub-figure:hover,.pub-figure:focus-visible{border-color:var(--limestone);
+  box-shadow:0 6px 18px rgba(37,43,49,.17);transform:translateY(-2px)}
+.pub-figure img{display:block;width:100%;height:auto}
+@media(max-width:640px){.pub-figure{width:124px;margin-left:1.1rem;padding:4px}}
+.lb{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;
+  flex-direction:column;gap:1rem;padding:clamp(1rem,4vw,3rem);background:rgba(24,27,30,.94)}
+.lb.on{display:flex}
+.lb img{max-width:100%;max-height:80vh;width:auto;height:auto;object-fit:contain;background:#fff;
+  box-shadow:0 12px 44px rgba(0,0,0,.55)}
+.lb figcaption{color:#d8d1c4;font-size:.85rem;text-align:center;max-width:44rem;line-height:1.5}
+.lb-close{position:absolute;top:1rem;right:1.25rem;width:2.5rem;height:2.5rem;border-radius:50%;
+  border:1px solid rgba(216,209,196,.4);background:transparent;color:#d8d1c4;font-size:1.4rem;
+  line-height:1;cursor:pointer;transition:background .2s ease,color .2s ease}
+.lb-close:hover{background:#d8d1c4;color:var(--slate)}
 .pub-src{display:block;margin-top:.45rem;font-size:.83rem;color:var(--limestone-deep);letter-spacing:.02em}
 .pub-list li.tv{padding:1.1rem 0}
 .pub-list li.tv .pub-body h3{font-size:1rem;margin-bottom:.2rem}
@@ -52,7 +67,11 @@
         <li>
           <span class="pub-year">2023</span>
           <div class="pub-body">
-            <img class="pub-cover" src="assets/images/publikationen/malta-titelblatt.jpg" width="420" height="648" loading="lazy" decoding="async" data-i18n-attr="alt:g1.a.alt" alt="">
+            <a class="pub-figure" href="assets/images/publikationen/gross/malta-titelblatt.jpg">
+              <img src="assets/images/publikationen/malta-titelblatt.jpg" width="360" height="555"
+                   loading="lazy" decoding="async"
+                   data-i18n-attr="alt:g1.a.alt" alt="Titelblatt des Länderbeitrags „Malta“, Neubearbeitung Stand Dezember 2023">
+            </a>
             <h3 data-i18n="g1.a.h3">Länderbeitrag „Malta"</h3>
             <p data-i18n="g1.a.p">Darstellung des maltesischen Familienrechts für die deutsche Rechtspraxis — Eheschließung, Güterrecht, Scheidung, Unterhalt und elterliche Sorge. Neubearbeitung, Stand Dezember 2023.</p>
             <span class="pub-src" data-i18n="g1.a.src">In: Rieck / Lettmaier (Hrsg.), Ausländisches Familienrecht · C.H.BECK · 28. Auflage 2025 · ISBN 978-3-406-53140-8</span>
@@ -61,7 +80,11 @@
         <li>
           <span class="pub-year">2020</span>
           <div class="pub-body">
-            <img class="pub-cover" src="assets/images/publikationen/iwb-15-2020.jpg" width="420" height="644" loading="lazy" decoding="async" data-i18n-attr="alt:g1.b.alt" alt="">
+            <a class="pub-figure" href="assets/images/publikationen/gross/iwb-15-2020.jpg">
+              <img src="assets/images/publikationen/iwb-15-2020.jpg" width="360" height="552"
+                   loading="lazy" decoding="async"
+                   data-i18n-attr="alt:g1.b.alt" alt="Titelseite der Zeitschrift IWB, Ausgabe 15/2020">
+            </a>
             <h3 data-i18n="g1.b.h3">Steuer- und Vermögensplanung mit Gesellschaften in Malta</h3>
             <p data-i18n="g1.b.p">Gemeinsam mit Anton Rudolf Götzenberger. Überblick über Malta-Gesellschaften im Allgemeinen und die Malta Limited im Besonderen — Gründung, Besteuerung und Gestaltungsmöglichkeiten aus deutscher Sicht.</p>
             <span class="pub-src" data-i18n="g1.b.src">In: IWB — Internationales Steuer- und Wirtschaftsrecht · Ausgabe 15 vom 14.08.2020 · S. 636 · NWB Verlag</span>
@@ -70,7 +93,11 @@
         <li>
           <span class="pub-year">2002</span>
           <div class="pub-body">
-            <img class="pub-cover" src="assets/images/publikationen/wohnungszuweisung-cover.jpg" width="420" height="545" loading="lazy" decoding="async" data-i18n-attr="alt:g1.c.alt" alt="">
+            <a class="pub-figure" href="assets/images/publikationen/gross/wohnungszuweisung-cover.jpg">
+              <img src="assets/images/publikationen/wohnungszuweisung-cover.jpg" width="360" height="467"
+                   loading="lazy" decoding="async"
+                   data-i18n-attr="alt:g1.c.alt" alt="Buchcover „Die Wohnungszuweisung“, Verlag Dr. Kovač">
+            </a>
             <h3 data-i18n="g1.c.h3">Die Wohnungszuweisung</h3>
             <p data-i18n="g1.c.p">Die Möglichkeiten, auf gerichtlichem Wege die Überlassung der Wohnung zu erlangen — nach dem BGB, dem Lebenspartnerschaftsgesetz und dem Gewaltschutzgesetz.</p>
             <span class="pub-src" data-i18n="g1.c.src">Reihe „Studien zur Rechtswissenschaft" · Verlag Dr. Kovač, Hamburg</span>
@@ -87,6 +114,11 @@
         <li>
           <span class="pub-year">2010</span>
           <div class="pub-body">
+            <a class="pub-figure" href="assets/images/publikationen/gross/papaya-unterhalt.jpg">
+              <img src="assets/images/publikationen/papaya-unterhalt.jpg" width="360" height="337"
+                   loading="lazy" decoding="async"
+                   data-i18n-attr="alt:g2.a.alt" alt="Der Beitrag „Unterhaltspflichtverletzung“ in PAPA-YA, Ausgabe 3/2010">
+            </a>
             <h3 data-i18n="g2.a.h3">Unterhaltspflichtverletzung — warum zahlen Eltern keinen Unterhalt für ihre Kinder?</h3>
             <p data-i18n="g2.a.p">Analyse der Ursachen ausbleibender Unterhaltszahlungen und ein Plädoyer dafür, Kindesunterhalt dem Kind selbst zuzuwenden statt dem betreuenden Elternteil — mit einem Ausblick auf das Wechselmodell als gesetzliches Regelmodell.</p>
             <span class="pub-src" data-i18n="g2.a.src">In: PAPA-YA — Das Magazin · Ausgabe 3/2010</span>
@@ -103,6 +135,11 @@
         <li>
           <span class="pub-year">2004</span>
           <div class="pub-body">
+            <a class="pub-figure" href="assets/images/publikationen/gross/magazin-2000plus-hartz-iv.jpg">
+              <img src="assets/images/publikationen/magazin-2000plus-hartz-iv.jpg" width="360" height="505"
+                   loading="lazy" decoding="async"
+                   data-i18n-attr="alt:g2.c.alt" alt="Der Beitrag „Deutschland im Herbst — Hartz IV“ in Magazin 2000plus, Nr. 234">
+            </a>
             <h3 data-i18n="g2.c.h3">Deutschland im Herbst — Hartz IV</h3>
             <p data-i18n="g2.c.p">Zu den sozialrechtlichen Folgen der Hartz-IV-Reform für Leistungsbezieher mit Wohnsitz im Ausland — im Anschluss an die Debatte um den Fall „Florida-Rolf".</p>
             <span class="pub-src" data-i18n="g2.c.src">In: Magazin 2000plus · Nr. 234 · S. 50</span>
@@ -119,7 +156,11 @@
         <li class="tv">
           <span class="pub-year">ARTE</span>
           <div class="pub-body">
-            <img class="pub-cover" src="assets/images/publikationen/arte-interview.jpg" width="420" height="560" loading="lazy" decoding="async" data-i18n-attr="alt:g3.a.alt" alt="">
+            <a class="pub-figure" href="assets/images/publikationen/gross/arte-interview.jpg">
+              <img src="assets/images/publikationen/arte-interview.jpg" width="360" height="480"
+                   loading="lazy" decoding="async"
+                   data-i18n-attr="alt:g3.a.alt" alt="Dr. Andreas Hübner beim Interview für die ARTE-Dokumentation">
+            </a>
             <h3 data-i18n="g3.a.h3">„Spiel ohne Grenzen"</h3>
             <p data-i18n="g3.a.p">Interview für die ARTE-Dokumentation zum europäischen Online-Glücksspielmarkt — abrufbar in der ARTE-Mediathek.</p>
           </div>
@@ -197,7 +238,49 @@
   </div>
 </footer>
 
+<figure class="lb" id="lightbox" role="dialog" aria-modal="true">
+  <button type="button" class="lb-close" data-i18n-attr="aria-label:lb.close" aria-label="Ansicht schließen">&times;</button>
+  <img src="" alt="">
+  <figcaption></figcaption>
+</figure>
+
 <script src="assets/i18n-data.js"></script>
 <script src="assets/i18n.js"></script>
+<script>
+/* Detailansicht der Abbildungen */
+(function () {
+  var lb = document.getElementById('lightbox');
+  if (!lb) return;
+  var bild = lb.querySelector('img'), text = lb.querySelector('figcaption'),
+      schliessen = lb.querySelector('.lb-close'), zurueck = null;
+
+  function oeffnen(a) {
+    var quelle = a.querySelector('img');
+    zurueck = a;
+    bild.src = a.getAttribute('href');
+    bild.alt = quelle.alt;
+    text.textContent = quelle.alt;
+    lb.classList.add('on');
+    document.body.style.overflow = 'hidden';
+    schliessen.focus();
+  }
+  function zu() {
+    lb.classList.remove('on');
+    bild.removeAttribute('src');
+    document.body.style.overflow = '';
+    if (zurueck) zurueck.focus();
+  }
+
+  document.querySelectorAll('.pub-figure').forEach(function (a) {
+    a.addEventListener('click', function (e) { e.preventDefault(); oeffnen(a); });
+  });
+  lb.addEventListener('click', function (e) {
+    if (e.target === lb || e.target === schliessen) zu();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && lb.classList.contains('on')) zu();
+  });
+})();
+</script>
 </body>
 </html>

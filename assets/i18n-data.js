@@ -492,6 +492,7 @@ veroeffentlichungen: {
     de: "Analyse der Ursachen ausbleibender Unterhaltszahlungen und ein Plädoyer dafür, Kindesunterhalt dem Kind selbst zuzuwenden statt dem betreuenden Elternteil — mit einem Ausblick auf das Wechselmodell als gesetzliches Regelmodell.",
     en: "An analysis of why maintenance payments fail to materialise, and an argument for paying child support to the child directly rather than to the caregiving parent — with a look at shared residence as the statutory default model."
   },
+  "g2.a.alt": { de: "Der Beitrag „Unterhaltspflichtverletzung“ in PAPA-YA, Ausgabe 3/2010", en: "The article \"Unterhaltspflichtverletzung\" in PAPA-YA, issue 3/2010" },
   "g2.a.src": { de: "In: PAPA-YA — Das Magazin · Ausgabe 3/2010", en: "In: PAPA-YA — Das Magazin · Issue 3/2010" },
   "g2.b.h3": { de: "Gesetze auf dem Prüfstand (Teil 2)", en: "Laws Under Scrutiny (Part 2)" },
   "g2.b.p": {
@@ -504,6 +505,7 @@ veroeffentlichungen: {
     de: "Zu den sozialrechtlichen Folgen der Hartz-IV-Reform für Leistungsbezieher mit Wohnsitz im Ausland — im Anschluss an die Debatte um den Fall „Florida-Rolf\".",
     en: "On the social-welfare consequences of the Hartz IV reform for benefit recipients living abroad — written in the wake of the German debate surrounding the \"Florida-Rolf\" case."
   },
+  "g2.c.alt": { de: "Der Beitrag „Deutschland im Herbst — Hartz IV“ in Magazin 2000plus, Nr. 234", en: "The article \"Deutschland im Herbst — Hartz IV\" in Magazin 2000plus, no. 234" },
   "g2.c.src": { de: "In: Magazin 2000plus · Nr. 234 · S. 50", en: "In: Magazin 2000plus · No. 234 · p. 50" },
 
   "g3.h2": { de: "Fernsehen und Rundfunk", en: "Television and Broadcasting" },
@@ -532,6 +534,7 @@ veroeffentlichungen: {
   "g3.h.h3": { de: "mex — „Kaffeefahrt\"", en: "mex — \"Kaffeefahrt\" (Coach-Trip Sales Scams)" },
   "g3.h.src": { de: "Hessischer Rundfunk · 19.06.2002", en: "Hessischer Rundfunk · 19 June 2002" },
 
+  "lb.close": { de: "Ansicht schließen", en: "Close image" },
   "outro": {
     de: "Einzelne Beiträge stelle ich Mandanten und Fachkollegen auf Anfrage gern zur Verfügung.",
     en: "I am glad to make individual articles available to clients and fellow practitioners on request."

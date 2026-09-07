@@ -115,6 +115,7 @@ index: {
   "vita.t1": { de: "Gründung eines Immobilienunternehmens im Rhein-Main-Gebiet", en: "Founded a real estate company in the Rhine-Main region" },
   "vita.t2": { de: "IHK-Prüfung zum Kaufmann in der Grundstücks- und Wohnungswirtschaft, Frankfurt am Main", en: "Chamber of Commerce qualification as a real estate and housing management professional, Frankfurt am Main" },
   "vita.t3": { de: "Zulassung und Gründung der Rechtsanwaltskanzlei in Frankfurt am Main — daraus entsteht „Hübner &amp; Kollegen“", en: "Admitted to the bar and founded the law firm in Frankfurt am Main — later becoming \"Hübner &amp; Kollegen\"" },
+  "vita.t9": { de: "Autor der Kolumne „Gesetze auf dem Prüfstand“ im Familienrechtsmagazin PAPA-YA", en: "Author of the column \"Gesetze auf dem Prüfstand\" in the family-law magazine PAPA-YA" },
   "vita.t4": { de: "Promotion im Familienrecht (cum laude)", en: "Doctorate in family law (cum laude)" },
   "vita.t5": { de: "Titel Mediator — seitdem auch als Mediator tätig", en: "Qualified as a mediator — active as a mediator ever since" },
   "vita.t6": { de: "Vorstand der Rechtsanwaltskammer Frankfurt am Main", en: "Board member of the Frankfurt am Main Bar Association" },
@@ -455,6 +456,7 @@ veroeffentlichungen: {
     de: "Darstellung des maltesischen Familienrechts für die deutsche Rechtspraxis — Eheschließung, Güterrecht, Scheidung, Unterhalt und elterliche Sorge. Neubearbeitung, Stand Dezember 2023.",
     en: "An account of Maltese family law for German legal practice — marriage, matrimonial property, divorce, maintenance and parental responsibility. Revised edition, as of December 2023."
   },
+  "g1.a.alt": { de: "Titelblatt des Länderbeitrags „Malta\", Neubearbeitung Stand Dezember 2023", en: "Title page of the country report \"Malta\", revised edition as of December 2023" },
   "g1.a.src": {
     de: "In: Rieck / Lettmaier (Hrsg.), Ausländisches Familienrecht · C.H.BECK · 28. Auflage 2025 · ISBN 978-3-406-53140-8",
     en: "In: Rieck / Lettmaier (eds.), Ausländisches Familienrecht · C.H.BECK · 28th edition 2025 · ISBN 978-3-406-53140-8"
@@ -464,6 +466,7 @@ veroeffentlichungen: {
     de: "Gemeinsam mit Anton Rudolf Götzenberger. Überblick über Malta-Gesellschaften im Allgemeinen und die Malta Limited im Besonderen — Gründung, Besteuerung und Gestaltungsmöglichkeiten aus deutscher Sicht.",
     en: "Together with Anton Rudolf Götzenberger. An overview of Maltese companies in general and the Malta Limited in particular — formation, taxation and structuring options from a German perspective."
   },
+  "g1.b.alt": { de: "Titelseite der Zeitschrift IWB, Ausgabe 15/2020", en: "Cover of the journal IWB, issue 15/2020" },
   "g1.b.src": {
     de: "In: IWB — Internationales Steuer- und Wirtschaftsrecht · Ausgabe 15 vom 14.08.2020 · S. 636 · NWB Verlag",
     en: "In: IWB — Internationales Steuer- und Wirtschaftsrecht · Issue 15 of 14 August 2020 · p. 636 · NWB Verlag"
@@ -473,6 +476,7 @@ veroeffentlichungen: {
     de: "Die Möglichkeiten, auf gerichtlichem Wege die Überlassung der Wohnung zu erlangen — nach dem BGB, dem Lebenspartnerschaftsgesetz und dem Gewaltschutzgesetz.",
     en: "The avenues available for obtaining possession of the shared home through the courts — under the German Civil Code, the Civil Partnership Act and the Protection Against Violence Act."
   },
+  "g1.c.alt": { de: "Buchcover „Die Wohnungszuweisung\", Verlag Dr. Kovač", en: "Book cover of \"Die Wohnungszuweisung\", Verlag Dr. Kovač" },
   "g1.c.src": {
     de: "Reihe „Studien zur Rechtswissenschaft\" · Verlag Dr. Kovač, Hamburg",
     en: "\"Studien zur Rechtswissenschaft\" series · Verlag Dr. Kovač, Hamburg"
@@ -507,6 +511,7 @@ veroeffentlichungen: {
     de: "Auftritte als juristischer Experte in Verbraucher- und Dokumentationsformaten.",
     en: "Appearances as a legal expert in consumer-affairs and documentary programmes."
   },
+  "g3.a.alt": { de: "Dr. Andreas Hübner beim Interview für die ARTE-Dokumentation", en: "Dr. Andreas Hübner during the interview for the ARTE documentary" },
   "g3.a.h3": { de: "„Spiel ohne Grenzen\"", en: "\"Spiel ohne Grenzen\" (Game Without Borders)" },
   "g3.a.p": {
     de: "Interview für die ARTE-Dokumentation zum europäischen Online-Glücksspielmarkt — abrufbar in der ARTE-Mediathek.",

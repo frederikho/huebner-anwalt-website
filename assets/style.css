@@ -234,6 +234,7 @@ footer.site a:hover{color:var(--limestone)}
 .pub-body h3{font-size:1.1rem;color:var(--slate);margin-bottom:.4rem}
 .pub-body p{font-size:.92rem;color:var(--ink-soft)}
 .pub-body em{font-style:italic;color:var(--slate)}
+.pub-more{margin-top:2rem;max-width:44rem}
 @media(max-width:560px){.pub-list li{grid-template-columns:1fr}.pub-year{padding-top:0}}
 
 /* ---------- Rechtsseiten (Impressum / Datenschutz / Widerruf) ---------- */

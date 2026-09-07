@@ -78,8 +78,8 @@ index: {
   },
   "news.n1.h3": { de: "Länderbeitrag „Malta\"", en: "Country Report \"Malta\"" },
   "news.n1.p": {
-    de: "Beitrag zum Gesellschafts- und Wirtschaftsrecht Maltas in einem internationalen Rechtshandbuch — Neubearbeitung, Stand Februar 2022.",
-    en: "Contribution on Maltese corporate and business law in an international legal handbook — revised edition, as of February 2022."
+    de: "Darstellung des maltesischen Familienrechts in: Rieck / Lettmaier (Hrsg.), <em>Ausländisches Familienrecht</em>, C.H.BECK, 28. Auflage 2025 — Neubearbeitung, Stand Dezember 2023.",
+    en: "An account of Maltese family law in: Rieck / Lettmaier (eds.), <em>Ausländisches Familienrecht</em>, C.H.BECK, 28th edition 2025 — revised edition, as of December 2023."
   },
   "news.n2.h3": { de: "Steuer- und Vermögensplanung mit Gesellschaften in Malta", en: "Tax and Asset Planning with Companies in Malta" },
   "news.n2.p": {
@@ -95,6 +95,10 @@ index: {
   "news.n4.p": {
     de: "Gastbeitrag für die ARTE-Dokumentation zum Online-Glücksspielmarkt — abrufbar in der ARTE-Mediathek.",
     en: "Guest contribution to the ARTE documentary on the online gambling market — available on the ARTE media library."
+  },
+  "news.more": {
+    de: "Alle Veröffentlichungen und Medienbeiträge ansehen →",
+    en: "View all publications and media appearances →"
   },
 
   "vita.eyebrow": { de: "Über mich", en: "About Me" },
@@ -420,6 +424,115 @@ gluecksspielrecht: {
   },
   "cta1": { de: "Fall unverbindlich prüfen lassen", en: "Get a free case review" },
   "cta2": { de: "Weitere Rechtsgebiete", en: "More practice areas" },
+  "footer.copyright": { de: "© 2026 Rechtsanwalt Dr. jur. Andreas Hübner · Hübner &amp; Kollegen", en: "© 2026 Attorney Dr. jur. Andreas Hübner · Hübner &amp; Kollegen" },
+  "footer.impressum": { de: "Impressum", en: "Legal Notice" },
+  "footer.datenschutz": { de: "Datenschutz", en: "Privacy Policy" },
+  "footer.widerruf": { de: "Widerrufsbelehrung", en: "Right of Withdrawal" }
+},
+
+veroeffentlichungen: {
+  "meta.title": {
+    de: "Veröffentlichungen und Medienbeiträge — Rechtsanwalt Dr. jur. Andreas Hübner",
+    en: "Publications and Media Appearances — Attorney Dr. jur. Andreas Hübner"
+  },
+  "meta.description": {
+    de: "Fachbeiträge, Bücher, Kolumnen und Fernsehbeiträge von Rechtsanwalt Dr. jur. Andreas Hübner — unter anderem im C.H.BECK Verlag, in der IWB und im Hessischen Rundfunk.",
+    en: "Scholarly articles, books, columns and television appearances by attorney Dr. jur. Andreas Hübner — including works published by C.H.BECK, the IWB journal and Hessischer Rundfunk."
+  },
+  "brand.subtitle": { de: "Rechtsanwalt · Mediator", en: "Attorney · Mediator" },
+  "back": { de: "← Zurück zur Startseite", en: "← Back to home page" },
+  "eyebrow": { de: "Archiv", en: "Archive" },
+  "h1": { de: "Veröffentlichungen und Medienbeiträge", en: "Publications and Media Appearances" },
+  "intro": {
+    de: "Seit 1995 veröffentliche ich regelmäßig zu Fragen des internationalen Gesellschafts- und Steuerrechts, des Familienrechts und des Glücksspielrechts — in juristischen Fachverlagen ebenso wie in der Publikumspresse. Hinzu kommen Beiträge als Experte in Fernsehformaten des Hessischen Rundfunks, der ARD und von ARTE. Die folgende Übersicht ist chronologisch nach Gattung geordnet.",
+    en: "Since 1995 I have published regularly on questions of international corporate and tax law, family law and gambling law — in legal publishing houses as well as in the general press. In addition, I have appeared as a legal expert in television programmes of Hessischer Rundfunk, ARD and ARTE. The overview below is arranged by category and, within each, chronologically."
+  },
+
+  "g1.h2": { de: "Fachbeiträge und Bücher", en: "Scholarly Articles and Books" },
+  "g1.note": { de: "Beiträge in juristischen Fachverlagen und Handbüchern.", en: "Contributions to legal publishers and practitioner handbooks." },
+  "g1.a.h3": { de: "Länderbeitrag „Malta\"", en: "Country Report \"Malta\"" },
+  "g1.a.p": {
+    de: "Darstellung des maltesischen Familienrechts für die deutsche Rechtspraxis — Eheschließung, Güterrecht, Scheidung, Unterhalt und elterliche Sorge. Neubearbeitung, Stand Dezember 2023.",
+    en: "An account of Maltese family law for German legal practice — marriage, matrimonial property, divorce, maintenance and parental responsibility. Revised edition, as of December 2023."
+  },
+  "g1.a.src": {
+    de: "In: Rieck / Lettmaier (Hrsg.), Ausländisches Familienrecht · C.H.BECK · 28. Auflage 2025 · ISBN 978-3-406-53140-8",
+    en: "In: Rieck / Lettmaier (eds.), Ausländisches Familienrecht · C.H.BECK · 28th edition 2025 · ISBN 978-3-406-53140-8"
+  },
+  "g1.b.h3": { de: "Steuer- und Vermögensplanung mit Gesellschaften in Malta", en: "Tax and Asset Planning with Companies in Malta" },
+  "g1.b.p": {
+    de: "Gemeinsam mit Anton Rudolf Götzenberger. Überblick über Malta-Gesellschaften im Allgemeinen und die Malta Limited im Besonderen — Gründung, Besteuerung und Gestaltungsmöglichkeiten aus deutscher Sicht.",
+    en: "Together with Anton Rudolf Götzenberger. An overview of Maltese companies in general and the Malta Limited in particular — formation, taxation and structuring options from a German perspective."
+  },
+  "g1.b.src": {
+    de: "In: IWB — Internationales Steuer- und Wirtschaftsrecht · Ausgabe 15 vom 14.08.2020 · S. 636 · NWB Verlag",
+    en: "In: IWB — Internationales Steuer- und Wirtschaftsrecht · Issue 15 of 14 August 2020 · p. 636 · NWB Verlag"
+  },
+  "g1.c.h3": { de: "Die Wohnungszuweisung", en: "The Allocation of the Marital Home" },
+  "g1.c.p": {
+    de: "Die Möglichkeiten, auf gerichtlichem Wege die Überlassung der Wohnung zu erlangen — nach dem BGB, dem Lebenspartnerschaftsgesetz und dem Gewaltschutzgesetz.",
+    en: "The avenues available for obtaining possession of the shared home through the courts — under the German Civil Code, the Civil Partnership Act and the Protection Against Violence Act."
+  },
+  "g1.c.src": {
+    de: "Reihe „Studien zur Rechtswissenschaft\" · Verlag Dr. Kovač, Hamburg",
+    en: "\"Studien zur Rechtswissenschaft\" series · Verlag Dr. Kovač, Hamburg"
+  },
+
+  "g2.h2": { de: "Presse und Kolumnen", en: "Press and Columns" },
+  "g2.note": { de: "Beiträge für ein nichtjuristisches Publikum.", en: "Articles written for a non-specialist readership." },
+  "g2.a.h3": {
+    de: "Unterhaltspflichtverletzung — warum zahlen Eltern keinen Unterhalt für ihre Kinder?",
+    en: "Breach of Maintenance Obligations — Why Do Parents Not Pay Child Support?"
+  },
+  "g2.a.p": {
+    de: "Analyse der Ursachen ausbleibender Unterhaltszahlungen und ein Plädoyer dafür, Kindesunterhalt dem Kind selbst zuzuwenden statt dem betreuenden Elternteil — mit einem Ausblick auf das Wechselmodell als gesetzliches Regelmodell.",
+    en: "An analysis of why maintenance payments fail to materialise, and an argument for paying child support to the child directly rather than to the caregiving parent — with a look at shared residence as the statutory default model."
+  },
+  "g2.a.src": { de: "In: PAPA-YA — Das Magazin · Ausgabe 3/2010", en: "In: PAPA-YA — Das Magazin · Issue 3/2010" },
+  "g2.b.h3": { de: "Gesetze auf dem Prüfstand (Teil 2)", en: "Laws Under Scrutiny (Part 2)" },
+  "g2.b.p": {
+    de: "Kolumne zum Gleichbehandlungsgebot des Art. 3 GG und zu der Frage, wie sich geschlechtsbezogene Sonderregelungen zu Art. 3 Abs. 3 GG und Art. 6 GG verhalten.",
+    en: "A column on the equal-treatment guarantee of Article 3 of the German Basic Law and how gender-specific rules relate to Article 3(3) and Article 6 of that Law."
+  },
+  "g2.b.src": { de: "In: PAPA-YA — Das Magazin · Ausgabe 3/2010 · S. 22", en: "In: PAPA-YA — Das Magazin · Issue 3/2010 · p. 22" },
+  "g2.c.h3": { de: "Deutschland im Herbst — Hartz IV", en: "Germany in Autumn — Hartz IV" },
+  "g2.c.p": {
+    de: "Zu den sozialrechtlichen Folgen der Hartz-IV-Reform für Leistungsbezieher mit Wohnsitz im Ausland — im Anschluss an die Debatte um den Fall „Florida-Rolf\".",
+    en: "On the social-welfare consequences of the Hartz IV reform for benefit recipients living abroad — written in the wake of the German debate surrounding the \"Florida-Rolf\" case."
+  },
+  "g2.c.src": { de: "In: Magazin 2000plus · Nr. 234 · S. 50", en: "In: Magazin 2000plus · No. 234 · p. 50" },
+
+  "g3.h2": { de: "Fernsehen und Rundfunk", en: "Television and Broadcasting" },
+  "g3.note": {
+    de: "Auftritte als juristischer Experte in Verbraucher- und Dokumentationsformaten.",
+    en: "Appearances as a legal expert in consumer-affairs and documentary programmes."
+  },
+  "g3.a.h3": { de: "„Spiel ohne Grenzen\"", en: "\"Spiel ohne Grenzen\" (Game Without Borders)" },
+  "g3.a.p": {
+    de: "Interview für die ARTE-Dokumentation zum europäischen Online-Glücksspielmarkt — abrufbar in der ARTE-Mediathek.",
+    en: "Interview for the ARTE documentary on the European online gambling market — available in the ARTE media library."
+  },
+  "g3.b.h3": { de: "mex — „Eigenheimabzocke\"", en: "mex — \"Eigenheimabzocke\" (Home-Buyer Rip-Offs)" },
+  "g3.b.src": { de: "Hessischer Rundfunk · 29.04.2004", en: "Hessischer Rundfunk · 29 April 2004" },
+  "g3.c.h3": { de: "hessenschau — „Hausbesitz futsch\"", en: "hessenschau — \"Hausbesitz futsch\" (Losing the House)" },
+  "g3.c.src": { de: "Hessischer Rundfunk · 15.03.2004", en: "Hessischer Rundfunk · 15 March 2004" },
+  "g3.d.h3": { de: "mex — „Sture Bahn\"", en: "mex — \"Sture Bahn\" (The Stubborn Railway)" },
+  "g3.d.src": { de: "Hessischer Rundfunk · 18.09.2003", en: "Hessischer Rundfunk · 18 September 2003" },
+  "g3.e.h3": { de: "hessenschau — „Einbauküche / Neckermann\"", en: "hessenschau — \"Einbauküche / Neckermann\" (Fitted Kitchens)" },
+  "g3.e.src": { de: "Hessischer Rundfunk · 05.07.2003", en: "Hessischer Rundfunk · 5 July 2003" },
+  "g3.f.h3": { de: "mex — „Kaffeefahrt\"", en: "mex — \"Kaffeefahrt\" (Coach-Trip Sales Scams)" },
+  "g3.f.src": { de: "Hessischer Rundfunk · 19.09.2002", en: "Hessischer Rundfunk · 19 September 2002" },
+  "g3.g.h3": { de: "Plusminus — „Kaffeefahrt\"", en: "Plusminus — \"Kaffeefahrt\" (Coach-Trip Sales Scams)" },
+  "g3.g.src": { de: "ARD · 09.07.2002", en: "ARD · 9 July 2002" },
+  "g3.h.h3": { de: "mex — „Kaffeefahrt\"", en: "mex — \"Kaffeefahrt\" (Coach-Trip Sales Scams)" },
+  "g3.h.src": { de: "Hessischer Rundfunk · 19.06.2002", en: "Hessischer Rundfunk · 19 June 2002" },
+
+  "outro": {
+    de: "Einzelne Beiträge stelle ich Mandanten und Fachkollegen auf Anfrage gern zur Verfügung.",
+    en: "I am glad to make individual articles available to clients and fellow practitioners on request."
+  },
+  "cta1": { de: "Kontakt aufnehmen", en: "Get in touch" },
+  "cta2": { de: "Zur Vita", en: "About me" },
   "footer.copyright": { de: "© 2026 Rechtsanwalt Dr. jur. Andreas Hübner · Hübner &amp; Kollegen", en: "© 2026 Attorney Dr. jur. Andreas Hübner · Hübner &amp; Kollegen" },
   "footer.impressum": { de: "Impressum", en: "Legal Notice" },
   "footer.datenschutz": { de: "Datenschutz", en: "Privacy Policy" },

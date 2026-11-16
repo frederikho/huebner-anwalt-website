@@ -4,13 +4,13 @@ window.I18N = {
 index: {
   "meta.title": {
     de: "Rechtsanwalt Dr. jur. Andreas Hübner — Von Beginn an in guten Händen",
-    en: "Attorney Dr. jur. Andreas Hübner — In Good Hands From the Very Start"
+    en: "Advocate Dr. jur. Andreas Hübner — In Good Hands From the Very Start"
   },
   "meta.description": {
     de: "Rechtsanwalt und Mediator Dr. jur. Andreas Hübner — Vertragsrecht, Immobilienrecht, Familien- und Erbrecht. Kanzlei in Mosta (Malta) und Frankfurt am Main. Seit 1995.",
-    en: "Attorney and mediator Dr. jur. Andreas Hübner — contract law, real estate law, family and inheritance law. Offices in Mosta (Malta) and Frankfurt am Main. Since 1995."
+    en: "Advocate and mediator Dr. jur. Andreas Hübner — contract law, real estate law, family and inheritance law. Offices in Mosta (Malta) and Frankfurt am Main. Since 1995."
   },
-  "brand.subtitle": { de: "Rechtsanwalt · Mediator", en: "Attorney · Mediator" },
+  "brand.subtitle": { de: "Rechtsanwalt · Mediator", en: "Advocate · Mediator" },
   "nav.philosophie": { de: "Philosophie", en: "Philosophy" },
   "nav.vita": { de: "Über mich", en: "About Me" },
   "nav.gluecksspiel": { de: "Glücksspielrecht", en: "Gambling Law" },
@@ -18,15 +18,15 @@ index: {
   "nav.honorar": { de: "Honorar", en: "Fees" },
   "nav.kontakt": { de: "Kontakt", en: "Contact" },
 
-  "hero.eyebrow": { de: "Rechtsanwalt &amp; Mediator · seit 1995", en: "Attorney &amp; Mediator · since 1995" },
+  "hero.eyebrow": { de: "Rechtsanwalt &amp; Mediator · seit 1995", en: "Advocate &amp; Mediator · since 1995" },
   "hero.h1": { de: "Von Beginn an <em>in guten Händen.</em>", en: "In good hands <em>from the very start.</em>" },
   "hero.lede": {
     de: "Mein Anspruch ist eine vollumfängliche Mandatsbetreuung: ein Anwalt Ihres Vertrauens, auf den Sie sich zu jeder Zeit und in jeder Situation verlassen können — in Deutschland und auf Malta.",
-    en: "My aim is comprehensive client care: an attorney you can trust and rely on at any time and in any situation — in Germany and in Malta."
+    en: "My aim is comprehensive client care: an advocate you can trust and rely on at any time and in any situation — in Germany and in Malta."
   },
   "hero.cta1": { de: "Kontakt aufnehmen", en: "Get in touch" },
   "hero.cta2": { de: "Rechtsgebiete ansehen", en: "View practice areas" },
-  "hero.imgAlt": { de: "Porträt von Rechtsanwalt Dr. jur. Andreas Hübner", en: "Portrait of attorney Dr. jur. Andreas Hübner" },
+  "hero.imgAlt": { de: "Porträt von Rechtsanwalt Dr. jur. Andreas Hübner", en: "Portrait of advocate Dr. jur. Andreas Hübner" },
   "hero.figcaption": {
     de: "Dr. jur. Andreas Hübner — Gründer der Kooperation Hübner &amp; Kollegen",
     en: "Dr. jur. Andreas Hübner — founder of the Hübner &amp; Kollegen cooperation"
@@ -58,11 +58,11 @@ index: {
   "philo.quoteFooter": { de: "Philosophie der Kanzlei", en: "The firm's philosophy" },
   "philo.p1": {
     de: "Die Wahl eines Anwalts ist in erster Linie <strong>Vertrauenssache</strong>. Als Mandant vertrauen Sie Ihrem Anwalt höchst private Informationen an, die Sie in den besten Händen wissen müssen.",
-    en: "Choosing an attorney is, above all, a matter of <strong>trust</strong>. As a client, you entrust your attorney with highly private information that you need to know is in the best of hands."
+    en: "Choosing an advocate is, above all, a matter of <strong>trust</strong>. As a client, you entrust your advocate with highly private information that you need to know is in the best of hands."
   },
   "philo.p2": {
     de: "Meine Philosophie ist die eines <strong>Haus-, Familien- und Unternehmensanwalts</strong>: ein vertrauensvoller Ansprechpartner für alle Ihre Rechtsangelegenheiten. Wer rechtzeitig Rat einholt, kann Konflikten vorbeugen und die Weichen von Anfang an richtig stellen.",
-    en: "My philosophy is that of a <strong>family and business attorney</strong>: a trusted point of contact for all your legal matters. Seeking advice early can prevent conflicts and set the right course from the very start."
+    en: "My philosophy is that of a <strong>family and business advocate</strong>: a trusted point of contact for all your legal matters. Seeking advice early can prevent conflicts and set the right course from the very start."
   },
   "philo.p3": {
     de: "Ich arbeite hoch motiviert und ergebnisorientiert — Information und Zeit sind die wichtigsten Güter meiner Mandanten. Nach Absprache stehe ich Ihnen flexibel und mobil auch außerhalb üblicher Bürozeiten zur Verfügung.",
@@ -173,15 +173,15 @@ index: {
     en: "Frankfurt am Main Bar Association · registered under Maltese law"
   },
 
-  "footer.copyright": { de: "© 2026 Rechtsanwalt Dr. jur. Andreas Hübner · Hübner &amp; Kollegen", en: "© 2026 Attorney Dr. jur. Andreas Hübner · Hübner &amp; Kollegen" },
+  "footer.copyright": { de: "© 2026 Rechtsanwalt Dr. jur. Andreas Hübner · Hübner &amp; Kollegen", en: "© 2026 Advocate Dr. jur. Andreas Hübner · Hübner &amp; Kollegen" },
   "footer.impressum": { de: "Impressum", en: "Legal Notice" },
   "footer.datenschutz": { de: "Datenschutz", en: "Privacy Policy" },
   "footer.widerruf": { de: "Widerrufsbelehrung", en: "Right of Withdrawal" }
 },
 
 impressum: {
-  "meta.title": { de: "Impressum — Rechtsanwalt Dr. jur. Andreas Hübner", en: "Legal Notice — Attorney Dr. jur. Andreas Hübner" },
-  "brand.subtitle": { de: "Rechtsanwalt · Mediator", en: "Attorney · Mediator" },
+  "meta.title": { de: "Impressum — Rechtsanwalt Dr. jur. Andreas Hübner", en: "Legal Notice — Advocate Dr. jur. Andreas Hübner" },
+  "brand.subtitle": { de: "Rechtsanwalt · Mediator", en: "Advocate · Mediator" },
   "back": { de: "← Zurück zur Startseite", en: "← Back to homepage" },
   "eyebrow": { de: "Rechtliche Hinweise", en: "Legal Information" },
   "h1": { de: "Impressum und Hinweise", en: "Legal Notice and Disclosures" },
@@ -233,25 +233,25 @@ impressum: {
   "h.responsible": { de: "Inhaltlich Verantwortlicher", en: "Person Responsible for Content" },
   "p.responsible": {
     de: "gem. § 55 Abs. 2 RStV:<br>\n    Rechtsanwalt und Mediator Dr. jur. Andreas Hübner<br>\n    126, Triq il-Fortizza, MST 4003 Mosta, Malta<br>\n    Telefon: +356 79 5959 66 / +49 (0) 178 444 333 6<br>\n    Telefax: +49 (0) 900 188 71<br>\n    E-Mail: <a href=\"mailto:huebner@anwalt-huebner.com\">huebner@anwalt-huebner.com</a>",
-    en: "pursuant to § 55 (2) RStV:<br>\n    Attorney and mediator Dr. jur. Andreas Hübner<br>\n    126, Triq il-Fortizza, MST 4003 Mosta, Malta<br>\n    Phone: +356 79 5959 66 / +49 (0) 178 444 333 6<br>\n    Fax: +49 (0) 900 188 71<br>\n    Email: <a href=\"mailto:huebner@anwalt-huebner.com\">huebner@anwalt-huebner.com</a>"
+    en: "pursuant to § 55 (2) RStV:<br>\n    Advocate and mediator Dr. jur. Andreas Hübner<br>\n    126, Triq il-Fortizza, MST 4003 Mosta, Malta<br>\n    Phone: +356 79 5959 66 / +49 (0) 178 444 333 6<br>\n    Fax: +49 (0) 900 188 71<br>\n    Email: <a href=\"mailto:huebner@anwalt-huebner.com\">huebner@anwalt-huebner.com</a>"
   },
   "h.design": { de: "Website-Gestaltung", en: "Website Design" },
-  "footer.copyright": { de: "© 2026 Rechtsanwalt Dr. jur. Andreas Hübner · Hübner &amp; Kollegen", en: "© 2026 Attorney Dr. jur. Andreas Hübner · Hübner &amp; Kollegen" },
+  "footer.copyright": { de: "© 2026 Rechtsanwalt Dr. jur. Andreas Hübner · Hübner &amp; Kollegen", en: "© 2026 Advocate Dr. jur. Andreas Hübner · Hübner &amp; Kollegen" },
   "footer.impressum": { de: "Impressum", en: "Legal Notice" },
   "footer.datenschutz": { de: "Datenschutz", en: "Privacy Policy" },
   "footer.widerruf": { de: "Widerrufsbelehrung", en: "Right of Withdrawal" }
 },
 
 datenschutz: {
-  "meta.title": { de: "Datenschutz — Rechtsanwalt Dr. jur. Andreas Hübner", en: "Privacy Policy — Attorney Dr. jur. Andreas Hübner" },
-  "brand.subtitle": { de: "Rechtsanwalt · Mediator", en: "Attorney · Mediator" },
+  "meta.title": { de: "Datenschutz — Rechtsanwalt Dr. jur. Andreas Hübner", en: "Privacy Policy — Advocate Dr. jur. Andreas Hübner" },
+  "brand.subtitle": { de: "Rechtsanwalt · Mediator", en: "Advocate · Mediator" },
   "back": { de: "← Zurück zur Startseite", en: "← Back to homepage" },
   "eyebrow": { de: "Rechtliche Hinweise", en: "Legal Information" },
   "h1": { de: "Datenschutzerklärung", en: "Privacy Policy" },
   "h.1": { de: "1. Name und Kontaktdaten des Verantwortlichen", en: "1. Name and Contact Details of the Controller" },
   "p.1": {
     de: "Diese Datenschutz-Information gilt für die Datenverarbeitung durch: Dr. Andreas Hübner, Rechtsanwalt, 126, Triq il-Fortizza, MST 4003 Mosta, Malta, Telefax +356 23 331 025, E-Mail: <a href=\"mailto:huebner@anwalt-huebner.com\">huebner@anwalt-huebner.com</a>.",
-    en: "This privacy notice applies to data processing carried out by: Dr. Andreas Hübner, attorney, 126, Triq il-Fortizza, MST 4003 Mosta, Malta, fax +356 23 331 025, email: <a href=\"mailto:huebner@anwalt-huebner.com\">huebner@anwalt-huebner.com</a>."
+    en: "This privacy notice applies to data processing carried out by: Dr. Andreas Hübner, advocate, 126, Triq il-Fortizza, MST 4003 Mosta, Malta, fax +356 23 331 025, email: <a href=\"mailto:huebner@anwalt-huebner.com\">huebner@anwalt-huebner.com</a>."
   },
   "h.2": { de: "2. Erhebung und Speicherung beim Besuch der Website", en: "2. Collection and Storage When Visiting the Website" },
   "p.2a": {
@@ -307,15 +307,15 @@ datenschutz: {
     de: "Diese Datenschutzerklärung ist aktuell gültig. Durch die Weiterentwicklung der Website oder aufgrund geänderter gesetzlicher bzw. behördlicher Vorgaben kann eine Anpassung erforderlich werden. Die jeweils aktuelle Fassung ist jederzeit auf dieser Seite abrufbar.",
     en: "This privacy policy is currently valid. Further development of the website, or changes in legal or regulatory requirements, may make an update necessary. The current version is always available on this page."
   },
-  "footer.copyright": { de: "© 2026 Rechtsanwalt Dr. jur. Andreas Hübner · Hübner &amp; Kollegen", en: "© 2026 Attorney Dr. jur. Andreas Hübner · Hübner &amp; Kollegen" },
+  "footer.copyright": { de: "© 2026 Rechtsanwalt Dr. jur. Andreas Hübner · Hübner &amp; Kollegen", en: "© 2026 Advocate Dr. jur. Andreas Hübner · Hübner &amp; Kollegen" },
   "footer.impressum": { de: "Impressum", en: "Legal Notice" },
   "footer.datenschutz": { de: "Datenschutz", en: "Privacy Policy" },
   "footer.widerruf": { de: "Widerrufsbelehrung", en: "Right of Withdrawal" }
 },
 
 widerruf: {
-  "meta.title": { de: "Vertrag widerrufen — Rechtsanwalt Dr. jur. Andreas Hübner", en: "Withdraw From Contract — Attorney Dr. jur. Andreas Hübner" },
-  "brand.subtitle": { de: "Rechtsanwalt · Mediator", en: "Attorney · Mediator" },
+  "meta.title": { de: "Vertrag widerrufen — Rechtsanwalt Dr. jur. Andreas Hübner", en: "Withdraw From Contract — Advocate Dr. jur. Andreas Hübner" },
+  "brand.subtitle": { de: "Rechtsanwalt · Mediator", en: "Advocate · Mediator" },
   "back": { de: "← Zurück zur Startseite", en: "← Back to homepage" },
   "eyebrow": { de: "Rechtliche Hinweise", en: "Legal Information" },
   "h1": { de: "Vertrag widerrufen", en: "Withdraw From Contract" },
@@ -340,7 +340,7 @@ widerruf: {
     de: "✓ Widerruf eingegangen — Sie erhalten in Kürze eine Bestätigung per E-Mail.",
     en: "✓ Withdrawal received — you will receive a confirmation by email shortly."
   },
-  "footer.copyright": { de: "© 2026 Rechtsanwalt Dr. jur. Andreas Hübner · Hübner &amp; Kollegen", en: "© 2026 Attorney Dr. jur. Andreas Hübner · Hübner &amp; Kollegen" },
+  "footer.copyright": { de: "© 2026 Rechtsanwalt Dr. jur. Andreas Hübner · Hübner &amp; Kollegen", en: "© 2026 Advocate Dr. jur. Andreas Hübner · Hübner &amp; Kollegen" },
   "footer.impressum": { de: "Impressum", en: "Legal Notice" },
   "footer.datenschutz": { de: "Datenschutz", en: "Privacy Policy" },
   "footer.widerruf": { de: "Widerrufsbelehrung", en: "Right of Withdrawal" }
@@ -349,13 +349,13 @@ widerruf: {
 gluecksspielrecht: {
   "meta.title": {
     de: "Unerlaubtes Online-Glücksspiel und Gewinne — Rechtsanwalt Dr. jur. Andreas Hübner",
-    en: "Unlicensed Online Gambling and Winnings — Attorney Dr. jur. Andreas Hübner"
+    en: "Unlicensed Online Gambling and Winnings — Advocate Dr. jur. Andreas Hübner"
   },
   "meta.description": {
     de: "Verluste aus unerlaubtem Online-Glücksspiel zurückfordern: aktuelle Rechtsprechung zu Geschäftsführerhaftung, anwendbarem Recht und offenen Fragen bei Gewinnen.",
     en: "Reclaiming losses from unlicensed online gambling: current case law on managing-director liability, applicable law, and open questions regarding winnings."
   },
-  "brand.subtitle": { de: "Rechtsanwalt · Mediator", en: "Attorney · Mediator" },
+  "brand.subtitle": { de: "Rechtsanwalt · Mediator", en: "Advocate · Mediator" },
   "back": { de: "← Zurück zur Startseite", en: "← Back to homepage" },
   "eyebrow": { de: "Glücksspielrecht · Online-Casinos", en: "Gambling Law · Online Casinos" },
   "h1": { de: "Unerlaubtes Online-Glücksspiel und Gewinne", en: "Unlicensed Online Gambling and Winnings" },
@@ -425,7 +425,7 @@ gluecksspielrecht: {
   },
   "cta1": { de: "Fall unverbindlich prüfen lassen", en: "Get a free case review" },
   "cta2": { de: "Weitere Rechtsgebiete", en: "More practice areas" },
-  "footer.copyright": { de: "© 2026 Rechtsanwalt Dr. jur. Andreas Hübner · Hübner &amp; Kollegen", en: "© 2026 Attorney Dr. jur. Andreas Hübner · Hübner &amp; Kollegen" },
+  "footer.copyright": { de: "© 2026 Rechtsanwalt Dr. jur. Andreas Hübner · Hübner &amp; Kollegen", en: "© 2026 Advocate Dr. jur. Andreas Hübner · Hübner &amp; Kollegen" },
   "footer.impressum": { de: "Impressum", en: "Legal Notice" },
   "footer.datenschutz": { de: "Datenschutz", en: "Privacy Policy" },
   "footer.widerruf": { de: "Widerrufsbelehrung", en: "Right of Withdrawal" }
@@ -434,13 +434,13 @@ gluecksspielrecht: {
 veroeffentlichungen: {
   "meta.title": {
     de: "Veröffentlichungen und Medienbeiträge — Rechtsanwalt Dr. jur. Andreas Hübner",
-    en: "Publications and Media Appearances — Attorney Dr. jur. Andreas Hübner"
+    en: "Publications and Media Appearances — Advocate Dr. jur. Andreas Hübner"
   },
   "meta.description": {
     de: "Fachbeiträge, Bücher, Kolumnen und Fernsehbeiträge von Rechtsanwalt Dr. jur. Andreas Hübner — unter anderem im C.H.BECK Verlag, in der IWB und im Hessischen Rundfunk.",
-    en: "Scholarly articles, books, columns and television appearances by attorney Dr. jur. Andreas Hübner — including works published by C.H.BECK, the IWB journal and Hessischer Rundfunk."
+    en: "Scholarly articles, books, columns and television appearances by advocate Dr. jur. Andreas Hübner — including works published by C.H.BECK, the IWB journal and Hessischer Rundfunk."
   },
-  "brand.subtitle": { de: "Rechtsanwalt · Mediator", en: "Attorney · Mediator" },
+  "brand.subtitle": { de: "Rechtsanwalt · Mediator", en: "Advocate · Mediator" },
   "back": { de: "← Zurück zur Startseite", en: "← Back to home page" },
   "eyebrow": { de: "Archiv", en: "Archive" },
   "h1": { de: "Veröffentlichungen und Medienbeiträge", en: "Publications and Media Appearances" },
@@ -541,7 +541,7 @@ veroeffentlichungen: {
   },
   "cta1": { de: "Kontakt aufnehmen", en: "Get in touch" },
   "cta2": { de: "Zur Vita", en: "About me" },
-  "footer.copyright": { de: "© 2026 Rechtsanwalt Dr. jur. Andreas Hübner · Hübner &amp; Kollegen", en: "© 2026 Attorney Dr. jur. Andreas Hübner · Hübner &amp; Kollegen" },
+  "footer.copyright": { de: "© 2026 Rechtsanwalt Dr. jur. Andreas Hübner · Hübner &amp; Kollegen", en: "© 2026 Advocate Dr. jur. Andreas Hübner · Hübner &amp; Kollegen" },
   "footer.impressum": { de: "Impressum", en: "Legal Notice" },
   "footer.datenschutz": { de: "Datenschutz", en: "Privacy Policy" },
   "footer.widerruf": { de: "Widerrufsbelehrung", en: "Right of Withdrawal" }
